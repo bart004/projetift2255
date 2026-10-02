@@ -14,7 +14,7 @@ Tous les systèmes présenté sont simplement pour l'aspect démonstratif. On do
 Il faut aussi construire une banque de question et réponse, en plus d'une table pour les chances de réussitent pour chaque cours.
 
 ## Comment Télécharger
-
+Télécharger le fichier JAR associer, et le lancer dans le Terminal
 
 ## Répartition de travail
 
@@ -26,3 +26,6 @@ Guillaume Nadeau: MISSING IN ACTION
 
 ## Utilisation AI
 Pour faire les exemples, démontrer dans le rapport, on a eu recours à figma 
+## Lien pour diagramme
+On les a fait dans un différent programme. Voici les diagrammes
+https://app.diagrams.net/#G18kRolLRTgmN4VMNjbJK3OTy0zO4rFrtF#%7B%22pageId%22%3A%229Rir4zVyAO7QaP5zqvP0%22%7D
