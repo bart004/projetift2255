@@ -1,0 +1,19 @@
+[
+  { "id": "ift1005", "sigle": "IFT 1005", "titre": "Design et développement Web", "bloc": "Programmation", "obligatoire": true, "horaire": [{ "jour": "lun", "debut": "08:30", "fin": "11:30" }] },
+  { "id": "ift1015", "sigle": "IFT 1015", "titre": "Programmation 1", "bloc": "Programmation", "obligatoire": true, "horaire": [{ "jour": "lun", "debut": "12:30", "fin": "15:30" }] },
+  { "id": "ift1025", "sigle": "IFT 1025", "titre": "Programmation 2", "bloc": "Programmation", "obligatoire": true, "prerequis": ["IFT 1015"], "horaire": [{ "jour": "mar", "debut": "08:30", "fin": "11:30" }] },
+  { "id": "ift1065", "sigle": "IFT 1065", "titre": "Structures discrètes en informatique", "bloc": "Théorie", "obligatoire": true, "horaire": [{ "jour": "mar", "debut": "10:30", "fin": "13:30" }] },
+  { "id": "ift1215", "sigle": "IFT 1215", "titre": "Introduction aux systèmes informatiques", "bloc": "Système", "obligatoire": true, "horaire": [{ "jour": "mer", "debut": "08:30", "fin": "11:30" }] },
+  { "id": "ift2015", "sigle": "IFT 2015", "titre": "Structures de données", "bloc": "Programmation", "obligatoire": true, "prerequis": ["IFT 1025"], "horaire": [{ "jour": "mer", "debut": "12:30", "fin": "15:30" }] },
+  { "id": "ift2035", "sigle": "IFT 2035", "titre": "Concepts des langages de programmation", "bloc": "Programmation", "obligatoire": true, "prerequis": ["IFT 2015"], "horaire": [{ "jour": "jeu", "debut": "08:30", "fin": "11:30" }] },
+  { "id": "ift2125", "sigle": "IFT 2125", "titre": "Introduction à l'algorithmique", "obligatoire": true, "prerequis": ["IFT 2015", "IFT 1065"], "horaire": [{ "jour": "jeu", "debut": "12:30", "fin": "15:30" }] },
+  { "id": "ift2245", "sigle": "IFT 2245", "titre": "Systèmes d'exploitation", "obligatoire": true, "prerequis": ["IFT 1215", "IFT 1025"], "horaire": [{ "jour": "ven", "debut": "08:30", "fin": "11:30" }] },
+  { "id": "ift2255", "sigle": "IFT 2255", "titre": "Génie logiciel", "obligatoire": true, "prerequis": ["IFT 2015"], "horaire": [{ "jour": "ven", "debut": "12:30", "fin": "15:30" }] },
+  { "id": "ift2905", "sigle": "IFT 2905", "titre": "Interfaces personne-machine", "obligatoire": true, "prerequis": ["IFT 1005"], "horaire": [{ "jour": "lun", "debut": "15:30", "fin": "18:30" }] },
+  { "id": "ift3225", "sigle": "IFT 3225", "titre": "Technologie de l'Internet", "prerequis": ["IFT 1005"], "horaire": [{ "jour": "mar", "debut": "13:30", "fin": "16:30" }] },
+  { "id": "ift3395", "sigle": "IFT 3395", "titre": "Fondements de l'apprentissage machine", "prerequis": ["IFT 2125"], "horaire": [{ "jour": "mer", "debut": "15:30", "fin": "18:30" }] },
+  { "id": "ift3155", "sigle": "IFT 3155", "titre": "Informatique quantique", "prerequis": ["IFT 1065"], "horaire": [{ "jour": "jeu", "debut": "15:30", "fin": "18:30" }] },
+  { "id": "ift3355", "sigle": "IFT 3355", "titre": "Infographie", "prerequis": ["IFT 2015"], "horaire": [{ "jour": "ven", "debut": "15:30", "fin": "18:30" }] },
+  { "id": "ift3150", "sigle": "IFT 3150", "titre": "Projet d'informatique", "type": "projet", "prerequis": ["IFT 2255"], "charge_hebdo_h": 9 },
+  { "id": "hors001", "sigle": "HORS-001", "titre": "Cours d'une autre faculté", "fictif": true, "reconnu_diro": false, "horaire": [{ "jour": "lun", "debut": "08:30", "fin": "10:30" }] }
+]

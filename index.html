@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planification des études — DIRO</title>
+<style>
+:root{--fond:#f6f8fa;--texte:#1a2733;--prim:#0b4a8f;--bord:#c5d0db;--vert:#1e6b3a;--vertf:#e9f6ee;--or:#8a4b00;--orf:#fff3dc;--rg:#9b1c1c;--rgf:#fdecec}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--texte);background:var(--fond);padding-bottom:6rem}
+header,main{max-width:72rem;margin:0 auto;padding:1rem}
+h1{font-size:1.4rem;margin:.2rem 0 .8rem}h2{font-size:1.2rem}h3{font-size:1.05rem}
+.barre{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;align-items:end}
+label{display:grid;gap:.2rem;font-weight:600}
+input,select,button{font:inherit;padding:.4rem .6rem;border:1px solid var(--bord);border-radius:.3rem;background:#fff;color:inherit}
+button{background:var(--prim);color:#fff;border-color:var(--prim);cursor:pointer}
+button:disabled{background:#e3e8ee;color:#4a5866;border-color:var(--bord);cursor:not-allowed}
+nav{margin-top:.8rem;display:flex;gap:.5rem}
+nav button{background:#fff;color:var(--prim)}
+nav [aria-current]{background:var(--prim);color:#fff}
+:focus-visible{outline:3px solid #ff9f1c;outline-offset:2px}
+.champs{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem;margin-bottom:1rem}
+.deux{display:grid;grid-template-columns:repeat(auto-fit,minmax(22rem,1fr));gap:1.5rem}
+ul{padding:0;list-style:none}
+li{background:#fff;border:1px solid var(--bord);border-radius:.4rem;padding:.6rem .8rem;margin:.5rem 0}
+li p{margin:.2rem 0}
+.res{display:flex;gap:.6rem;border-left-width:.35rem}
+.ico{font-weight:700}
+.etat{font-weight:700;margin-right:.3rem}
+.vert{background:var(--vertf);border-left-color:var(--vert)}.vert .ico,.vert .etat{color:var(--vert)}
+.orange{background:var(--orf);border-left-color:var(--or)}.orange .ico,.orange .etat{color:var(--or)}
+.rouge{background:var(--rgf);border-left-color:var(--rg)}.rouge .ico,.rouge .etat{color:var(--rg)}
+.badge{display:inline-block;background:#e3ecf5;color:#0b3a70;border-radius:.25rem;padding:0 .4rem;font-size:.85rem;font-weight:600}
+.note,.legende{background:#fff;border:1px solid var(--bord);border-left:.35rem solid var(--prim);padding:.5rem .8rem;border-radius:.3rem}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{border:1px solid var(--bord);padding:.4rem .6rem;text-align:left;vertical-align:top}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.saut{position:absolute;left:-999px}.saut:focus{left:.5rem;top:.5rem;background:#fff;padding:.4rem;z-index:9}
+footer{position:fixed;bottom:0;left:0;right:0;background:#0b2a4a;color:#fff;padding:.5rem 1rem;font-size:.9rem}
+footer p{margin:0}
+</style>
+</head>
+<body>
+<a class="saut" href="#contenu">Aller au contenu</a>
+<div id="app"></div>
+<div id="annonce" class="sr" role="status" aria-live="polite"></div>
+<footer>
+  <p><strong>Rappel :</strong> cet outil aide à décider plus tôt. Il ne remplace ni le conseil académique ni l'inscription officielle (registrariat).</p>
+  <p>Prototype : données de démo, fictives ou « à valider ».</p>
+</footer>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

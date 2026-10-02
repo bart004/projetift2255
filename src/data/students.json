@@ -1,0 +1,5 @@
+[
+  { "id": "A", "nom": "Profil A (régulier, début de parcours)", "statut": "regulier", "credits_cumules": 15, "trimestre": "Automne 2026", "interets": ["web", "IA"], "apprentissage": "pratique", "reussis": ["IFT 1005", "IFT 1015", "IFT 1025", "IFT 1065", "IFT 1215"] },
+  { "id": "B", "nom": "Profil B (régulier, fin de parcours)", "statut": "regulier", "credits_cumules": 60, "trimestre": "Automne 2026", "interets": ["systèmes", "théorie"], "apprentissage": "théorique", "reussis": ["IFT 1005", "IFT 1015", "IFT 1025", "IFT 1065", "IFT 1215", "IFT 2015", "IFT 2035", "IFT 2125"] },
+  { "id": "C", "nom": "Profil C (échange)", "statut": "echange", "credits_cumules": 24, "trimestre": "Automne 2026", "interets": ["graphisme", "IA"], "apprentissage": "en groupe", "reussis": ["IFT 1015", "IFT 1025", "IFT 1065"] }
+]

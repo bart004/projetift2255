@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planification des études — DIRO</title>
+<style>
+:root{--fond:#f6f8fa;--texte:#1a2733;--prim:#0b4a8f;--bord:#c5d0db;--vert:#1e6b3a;--vertf:#e9f6ee;--or:#8a4b00;--orf:#fff3dc;--rg:#9b1c1c;--rgf:#fdecec}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--texte);background:var(--fond);padding-bottom:6rem}
+header,main{max-width:72rem;margin:0 auto;padding:1rem}
+h1{font-size:1.4rem;margin:.2rem 0 .8rem}h2{font-size:1.2rem}h3{font-size:1.05rem}
+.barre{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;align-items:end}
+label{display:grid;gap:.2rem;font-weight:600}
+input,select,button{font:inherit;padding:.4rem .6rem;border:1px solid var(--bord);border-radius:.3rem;background:#fff;color:inherit}
+button{background:var(--prim);color:#fff;border-color:var(--prim);cursor:pointer}
+button:disabled{background:#e3e8ee;color:#4a5866;border-color:var(--bord);cursor:not-allowed}
+nav{margin-top:.8rem;display:flex;gap:.5rem}
+nav button{background:#fff;color:var(--prim)}
+nav [aria-current]{background:var(--prim);color:#fff}
+:focus-visible{outline:3px solid #ff9f1c;outline-offset:2px}
+.champs{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem;margin-bottom:1rem}
+.deux{display:grid;grid-template-columns:repeat(auto-fit,minmax(22rem,1fr));gap:1.5rem}
+ul{padding:0;list-style:none}
+li{background:#fff;border:1px solid var(--bord);border-radius:.4rem;padding:.6rem .8rem;margin:.5rem 0}
+li p{margin:.2rem 0}
+.res{display:flex;gap:.6rem;border-left-width:.35rem}
+.ico{font-weight:700}
+.etat{font-weight:700;margin-right:.3rem}
+.vert{background:var(--vertf);border-left-color:var(--vert)}.vert .ico,.vert .etat{color:var(--vert)}
+.orange{background:var(--orf);border-left-color:var(--or)}.orange .ico,.orange .etat{color:var(--or)}
+.rouge{background:var(--rgf);border-left-color:var(--rg)}.rouge .ico,.rouge .etat{color:var(--rg)}
+.badge{display:inline-block;background:#e3ecf5;color:#0b3a70;border-radius:.25rem;padding:0 .4rem;font-size:.85rem;font-weight:600}
+.note,.legende{background:#fff;border:1px solid var(--bord);border-left:.35rem solid var(--prim);padding:.5rem .8rem;border-radius:.3rem}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{border:1px solid var(--bord);padding:.4rem .6rem;text-align:left;vertical-align:top}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.saut{position:absolute;left:-999px}.saut:focus{left:.5rem;top:.5rem;background:#fff;padding:.4rem;z-index:9}
+footer{position:fixed;bottom:0;left:0;right:0;background:#0b2a4a;color:#fff;padding:.5rem 1rem;font-size:.9rem}
+footer p{margin:0}
+</style>
+</head>
+<body>
+<a class="saut" href="#contenu">Aller au contenu</a>
+<div id="app"></div>
+<div id="annonce" class="sr" role="status" aria-live="polite"></div>
+<footer>
+  <p><strong>Rappel :</strong> cet outil aide à décider plus tôt. Il ne remplace ni le conseil académique ni l'inscription officielle (registrariat).</p>
+  <p>Prototype : données de démo, fictives ou « à valider ».</p>
+</footer>
+<script>
+(() => {
+  // src/data/program_rules.json
+  var program_rules_default = [
+    { cle: "credits_total_diplome", valeur: 90, explication: "Le baccalaur\xE9at en informatique compte 90 cr\xE9dits.", a_valider: true },
+    { cle: "credits_min_regulier", valeur: 12, explication: "Seuil de temps plein (impact sur pr\xEAts et bourses).", a_valider: true },
+    { cle: "credits_max_regulier", valeur: 18, explication: "Plafond de d\xE9mo \xE0 valider. Voir le r\xE8glement des \xE9tudes de 1er cycle.", a_valider: true },
+    { cle: "credits_min_echange", valeur: 12, explication: "Minimum pour un \xE9tudiant d'\xE9change au 1er cycle.", a_valider: true },
+    { cle: "credits_max_echange", valeur: 15, explication: "Maximum pour un \xE9tudiant d'\xE9change au 1er cycle.", a_valider: true },
+    { cle: "credits_par_cours_typique", valeur: 3, explication: "1 cr\xE9dit \xE9gale 15 h par trimestre. 3 cr\xE9dits \xE9galent 3 h par semaine pendant 15 semaines.", a_valider: true },
+    { cle: "heures_par_credit_semaine", valeur: 1, explication: "Une heure de cours par semaine par cr\xE9dit.", a_valider: true },
+    { cle: "plafond_heures_cours_semaine", valeur: 15, explication: "Plafond de d\xE9mo pour d\xE9tecter une surcharge.", a_valider: true },
+    { cle: "plafond_charge_totale_semaine", valeur: 45, explication: "Cours, travail personnel et projets. Valeur de d\xE9mo.", a_valider: true },
+    { cle: "tronc_commun", valeur: { obligatoire: 51, option: 6, libre: 6 }, explication: "Segment 01 du programme : 51 cr\xE9dits obligatoires, 6 \xE0 option et 6 libres.", a_valider: true },
+    { cle: "orientation_generale", valeur: { obligatoire: 6, option: 21 }, explication: "Segment 76 : 6 cr\xE9dits obligatoires et 21 \xE0 option.", a_valider: true },
+    { cle: "quota_projets", valeur: 1, explication: "1 projet supervis\xE9 maximum par trimestre. Valeur de d\xE9mo.", a_valider: true },
+    { cle: "quota_seminaires", valeur: 1, explication: "1 s\xE9minaire maximum par trimestre. Valeur de d\xE9mo.", a_valider: true },
+    { cle: "plafond_demandes_simultanees", valeur: 3, explication: "Limite de demandes en attente par \xE9tudiant.", a_valider: true },
+    { cle: "delai_relance_heures", valeur: 48, explication: "Une redemande dans ce d\xE9lai apr\xE8s expiration est une \xAB relance \xBB.", a_valider: true }
+  ];
+
+  // src/data/activities.json
+  var activities_default = [
+    { id: "ift1005", sigle: "IFT 1005", titre: "Design et d\xE9veloppement Web", bloc: "Programmation", obligatoire: true, horaire: [{ jour: "lun", debut: "08:30", fin: "11:30" }] },
+    { id: "ift1015", sigle: "IFT 1015", titre: "Programmation 1", bloc: "Programmation", obligatoire: true, horaire: [{ jour: "lun", debut: "12:30", fin: "15:30" }] },
+    { id: "ift1025", sigle: "IFT 1025", titre: "Programmation 2", bloc: "Programmation", obligatoire: true, prerequis: ["IFT 1015"], horaire: [{ jour: "mar", debut: "08:30", fin: "11:30" }] },
+    { id: "ift1065", sigle: "IFT 1065", titre: "Structures discr\xE8tes en informatique", bloc: "Th\xE9orie", obligatoire: true, horaire: [{ jour: "mar", debut: "10:30", fin: "13:30" }] },
+    { id: "ift1215", sigle: "IFT 1215", titre: "Introduction aux syst\xE8mes informatiques", bloc: "Syst\xE8me", obligatoire: true, horaire: [{ jour: "mer", debut: "08:30", fin: "11:30" }] },
+    { id: "ift2015", sigle: "IFT 2015", titre: "Structures de donn\xE9es", bloc: "Programmation", obligatoire: true, prerequis: ["IFT 1025"], horaire: [{ jour: "mer", debut: "12:30", fin: "15:30" }] },
+    { id: "ift2035", sigle: "IFT 2035", titre: "Concepts des langages de programmation", bloc: "Programmation", obligatoire: true, prerequis: ["IFT 2015"], horaire: [{ jour: "jeu", debut: "08:30", fin: "11:30" }] },
+    { id: "ift2125", sigle: "IFT 2125", titre: "Introduction \xE0 l'algorithmique", obligatoire: true, prerequis: ["IFT 2015", "IFT 1065"], horaire: [{ jour: "jeu", debut: "12:30", fin: "15:30" }] },
+    { id: "ift2245", sigle: "IFT 2245", titre: "Syst\xE8mes d'exploitation", obligatoire: true, prerequis: ["IFT 1215", "IFT 1025"], horaire: [{ jour: "ven", debut: "08:30", fin: "11:30" }] },
+    { id: "ift2255", sigle: "IFT 2255", titre: "G\xE9nie logiciel", obligatoire: true, prerequis: ["IFT 2015"], horaire: [{ jour: "ven", debut: "12:30", fin: "15:30" }] },
+    { id: "ift2905", sigle: "IFT 2905", titre: "Interfaces personne-machine", obligatoire: true, prerequis: ["IFT 1005"], horaire: [{ jour: "lun", debut: "15:30", fin: "18:30" }] },
+    { id: "ift3225", sigle: "IFT 3225", titre: "Technologie de l'Internet", prerequis: ["IFT 1005"], horaire: [{ jour: "mar", debut: "13:30", fin: "16:30" }] },
+    { id: "ift3395", sigle: "IFT 3395", titre: "Fondements de l'apprentissage machine", prerequis: ["IFT 2125"], horaire: [{ jour: "mer", debut: "15:30", fin: "18:30" }] },
+    { id: "ift3155", sigle: "IFT 3155", titre: "Informatique quantique", prerequis: ["IFT 1065"], horaire: [{ jour: "jeu", debut: "15:30", fin: "18:30" }] },
+    { id: "ift3355", sigle: "IFT 3355", titre: "Infographie", prerequis: ["IFT 2015"], horaire: [{ jour: "ven", debut: "15:30", fin: "18:30" }] },
+    { id: "ift3150", sigle: "IFT 3150", titre: "Projet d'informatique", type: "projet", prerequis: ["IFT 2255"], charge_hebdo_h: 9 },
+    { id: "hors001", sigle: "HORS-001", titre: "Cours d'une autre facult\xE9", fictif: true, reconnu_diro: false, horaire: [{ jour: "lun", debut: "08:30", fin: "10:30" }] }
+  ];
+
+  // src/data/students.json
+  var students_default = [
+    { id: "A", nom: "Profil A (r\xE9gulier, d\xE9but de parcours)", statut: "regulier", credits_cumules: 15, trimestre: "Automne 2026", interets: ["web", "IA"], apprentissage: "pratique", reussis: ["IFT 1005", "IFT 1015", "IFT 1025", "IFT 1065", "IFT 1215"] },
+    { id: "B", nom: "Profil B (r\xE9gulier, fin de parcours)", statut: "regulier", credits_cumules: 60, trimestre: "Automne 2026", interets: ["syst\xE8mes", "th\xE9orie"], apprentissage: "th\xE9orique", reussis: ["IFT 1005", "IFT 1015", "IFT 1025", "IFT 1065", "IFT 1215", "IFT 2015", "IFT 2035", "IFT 2125"] },
+    { id: "C", nom: "Profil C (\xE9change)", statut: "echange", credits_cumules: 24, trimestre: "Automne 2026", interets: ["graphisme", "IA"], apprentissage: "en groupe", reussis: ["IFT 1015", "IFT 1025", "IFT 1065"] }
+  ];
+
+  // src/logic/common.js
+  var ETATS = { ok: "vert", avertissement: "orange", bloquant: "rouge" };
+  var creer = (niveau) => (code, message, raison = "", extra = {}) => ({
+    ok: niveau !== "bloquant",
+    niveau,
+    etat: ETATS[niveau],
+    code,
+    message,
+    raison,
+    ...extra
+  });
+  var valide = creer("ok");
+  var avertissement = creer("avertissement");
+  var bloquant = creer("bloquant");
+  var STATUTS = ["regulier", "echange"];
+  var MENTION_ECHANGE = `Plan \xE0 faire approuver par le responsable des \xE9changes du d\xE9partement.`;
+  var rulesToMap = (rows) => Object.fromEntries(rows.map(({ cle, valeur }) => [cle, valeur]));
+  var somme = (xs) => xs.reduce((a, b) => a + b, 0);
+  var bornesCredits = (statut, r) => statut === "echange" ? [r.credits_min_echange, r.credits_max_echange] : [r.credits_min_regulier, r.credits_max_regulier];
+  var erreurEntrees = (statut, cumul, r) => {
+    if (!STATUTS.includes(statut)) {
+      return bloquant("STATUT_INVALIDE", "Statut inconnu.", `Statuts permis : ${STATUTS.join(", ")}.`);
+    }
+    if (!Number.isInteger(cumul) || cumul < 0 || cumul > r.credits_total_diplome) {
+      return bloquant(
+        "CUMUL_INCOHERENT",
+        "Cr\xE9dits cumul\xE9s incoh\xE9rents.",
+        `Le cumul doit \xEAtre un entier entre 0 et ${r.credits_total_diplome}.`
+      );
+    }
+    return null;
+  };
+  var phraseCharge = (credits, heuresParCredit) => {
+    const h = credits.map((c) => c * heuresParCredit);
+    return h.length > 1 && h.every((x) => x === h[0]) ? `${h.length} cours \xD7 ${h[0]} h = ${somme(h)} h de cours par semaine` : `${somme(h)} h de cours par semaine`;
+  };
+
+  // src/logic/profile.js
+  function validateProfile(params, regles) {
+    const { statut, credits_cumules: cumul, cible_credits: cible } = params ?? {};
+    const erreur = erreurEntrees(statut, cumul, regles);
+    if (erreur) return [erreur];
+    const resultats = [];
+    const restants = regles.credits_total_diplome - cumul;
+    const [bMin, bMax] = bornesCredits(statut, regles);
+    const [min, max] = [bMin, bMax].map((b) => Math.min(b, restants));
+    if (!Number.isInteger(cible) || cible < min || cible > max) {
+      const limite = restants < bMax ? ` Il ne reste que ${restants} cr\xE9dits \xE0 compl\xE9ter.` : "";
+      resultats.push(bloquant(
+        "CIBLE_HORS_BORNES",
+        `Une cible de ${cible} cr\xE9dits est hors des bornes permises (${min} \xE0 ${max}).`,
+        `Bornes du statut ${statut}.${limite}`
+      ));
+    }
+    if (Number.isInteger(cible) && cible * regles.heures_par_credit_semaine > regles.plafond_heures_cours_semaine) {
+      const parCours = regles.credits_par_cours_typique;
+      const credits = cible % parCours === 0 ? Array(cible / parCours).fill(parCours) : [cible];
+      resultats.push(avertissement(
+        "CHARGE_COURS_ELEVEE",
+        "Charge de cours \xE9lev\xE9e.",
+        `${phraseCharge(credits, regles.heures_par_credit_semaine)}, ce qui d\xE9passe d\xE9j\xE0 votre plafond de ${regles.plafond_heures_cours_semaine} h.`
+      ));
+    }
+    return resultats.length ? resultats : [valide("PROFIL_VALIDE", "Profil coh\xE9rent.")];
+  }
+  function computeCreditTarget(cumul, statut, regles) {
+    const erreur = erreurEntrees(statut, cumul, regles);
+    if (erreur) return { ...erreur, cible: null };
+    const restants = regles.credits_total_diplome - cumul;
+    const [min, max] = bornesCredits(statut, regles);
+    const souhaitee = Math.floor(regles.plafond_heures_cours_semaine / regles.heures_par_credit_semaine);
+    const cible = Math.min(Math.max(souhaitee, min), max, restants);
+    if (cible < min) {
+      return avertissement(
+        "CIBLE_SOUS_SEUIL",
+        `Cible de ${cible} cr\xE9dits : il ne reste que ${restants} cr\xE9dits.`,
+        `Sous le minimum de ${min} cr\xE9dits, mais la cible ne d\xE9passe jamais les cr\xE9dits restants.`,
+        { cible }
+      );
+    }
+    return valide(
+      "CIBLE_PAR_DEFAUT",
+      `Cible par d\xE9faut : ${cible} cr\xE9dits.`,
+      `Plafond de ${souhaitee} cr\xE9dits selon les heures de cours, born\xE9 \xE0 ${min}\u2013${max} cr\xE9dits et \xE0 ${restants} cr\xE9dits restants.`,
+      { cible }
+    );
+  }
+
+  // src/logic/plan.js
+  var heureValide = (h) => /^([01]\d|2[0-3]):[0-5]\d$/.test(h);
+  var enMinutes = (h) => Number(h.slice(0, 2)) * 60 + Number(h.slice(3));
+  var creneauValide = (c) => heureValide(c.debut) && heureValide(c.fin) && enMinutes(c.debut) < enMinutes(c.fin);
+  var croisent = (a, b) => a.jour === b.jour && enMinutes(a.debut) < enMinutes(b.fin) && enMinutes(b.debut) < enMinutes(a.fin);
+  var enConflit = (a, b) => a.horaire.some((x) => b.horaire.some((y) => croisent(x, y)));
+  function detectOverlaps(planItems) {
+    if (!Array.isArray(planItems)) {
+      return [bloquant("ENTREE_INVALIDE", "Plan invalide.", `Une liste d'activit\xE9s est attendue.`)];
+    }
+    const resultats = [];
+    const fixes = [];
+    for (const i of planItems) {
+      if (!i.horaire?.length) {
+        resultats.push(avertissement(
+          "SANS_HORAIRE_FIXE",
+          `${i.sigle} n'a pas d'horaire fixe.`,
+          `Un chevauchement ne peut pas \xEAtre v\xE9rifi\xE9 : \xE0 confirmer avec l'encadrant.`,
+          { paire: [i.id] }
+        ));
+      } else if (!i.horaire.every(creneauValide)) {
+        resultats.push(bloquant(
+          "HORAIRE_INVALIDE",
+          `L'horaire de ${i.sigle} est invalide.`,
+          "Format attendu : jour, d\xE9but et fin en HH:MM, avec le d\xE9but avant la fin.",
+          { paire: [i.id] }
+        ));
+      } else {
+        fixes.push(i);
+      }
+    }
+    fixes.forEach((a, idx) => fixes.slice(idx + 1).filter((b) => enConflit(a, b)).forEach((b) => {
+      const dur = a.type === "cours" && b.type === "cours";
+      resultats.push((dur ? bloquant : avertissement)(
+        "CHEVAUCHEMENT",
+        `${a.sigle} et ${b.sigle} se chevauchent.`,
+        dur ? "Deux cours ne peuvent pas avoir lieu en m\xEAme temps : ajout bloqu\xE9." : `Au moins une des deux activit\xE9s n'est pas un cours : signal\xE9 seulement.`,
+        { paire: [a.id, b.id] }
+      ));
+    }));
+    return resultats;
+  }
+  var verdict = (niveau, code, problemes, ko, bon, raison) => problemes.length ? niveau(code, ko(problemes.join(" ; ")), raison) : valide(code, bon);
+  function checkConstraints(plan, regles, etudiant, catalogue = []) {
+    const erreur = Array.isArray(plan) ? erreurEntrees(etudiant?.statut, etudiant?.credits_cumules, regles) : bloquant("ENTREE_INVALIDE", "Plan invalide.", `Une liste d'activit\xE9s est attendue.`);
+    if (erreur) return [erreur];
+    const { statut, credits_cumules: cumul } = etudiant;
+    const reussis = new Set(etudiant.reussis ?? []);
+    const planifies = new Set(plan.map((i) => i.sigle));
+    const cours = plan.filter((i) => i.type === "cours");
+    const total = somme(plan.map((i) => i.credits));
+    const restants = regles.credits_total_diplome - cumul;
+    const [bMin, bMax] = bornesCredits(statut, regles);
+    const [min, max] = [bMin, bMax].map((b) => Math.min(b, restants));
+    const strict = statut === "echange";
+    const r = [];
+    if (total > max) {
+      r.push(bloquant(
+        "CREDITS_FOURCHETTE",
+        `${total} cr\xE9dits au plan : au-dessus du maximum de ${max}.`,
+        `Bornes du statut ${statut} : ${min} \xE0 ${max} cr\xE9dits.`
+      ));
+    } else if (total < min) {
+      r.push((strict ? bloquant : avertissement)(
+        "CREDITS_FOURCHETTE",
+        `${total} cr\xE9dits au plan : sous le minimum de ${min}.`,
+        strict ? `Limite stricte pour un \xE9tudiant d'\xE9change : ${min} \xE0 ${max} cr\xE9dits.` : "Plan incomplet : ajoutez des activit\xE9s."
+      ));
+    } else {
+      r.push(valide("CREDITS_FOURCHETTE", `${total} cr\xE9dits au plan, dans les bornes (${min} \xE0 ${max}).`));
+    }
+    r.push(total >= bMin ? valide("TEMPS_PLEIN", `Temps plein atteint (${total} cr\xE9dits, seuil de ${bMin}).`) : avertissement(
+      "TEMPS_PLEIN",
+      `${total} cr\xE9dits au plan : sous le seuil de temps plein (${bMin}).`,
+      total >= restants ? `Il ne reste que ${restants} cr\xE9dits \xE0 compl\xE9ter.` : "Impact possible sur les pr\xEAts et bourses : \xE0 valider aupr\xE8s du registrariat."
+    ));
+    const hpc = regles.heures_par_credit_semaine;
+    const hCours = somme(cours.map((c) => c.credits * hpc));
+    const hTotal = somme(plan.map((i) => i.charge_hebdo_h ?? 0));
+    const surcharges = [];
+    if (hCours > regles.plafond_heures_cours_semaine) {
+      surcharges.push(`${phraseCharge(cours.map((c) => c.credits), hpc)}, ce qui d\xE9passe d\xE9j\xE0 votre plafond de ${regles.plafond_heures_cours_semaine} h`);
+    }
+    if (hTotal > regles.plafond_charge_totale_semaine) {
+      surcharges.push(`charge totale estim\xE9e de ${hTotal} h par semaine, au-dessus du plafond de ${regles.plafond_charge_totale_semaine} h`);
+    }
+    r.push(surcharges.length ? avertissement("CHARGE_HEBDO", "Charge hebdomadaire \xE9lev\xE9e.", `${surcharges.join(" ; ")}.`) : valide("CHARGE_HEBDO", `Charge estim\xE9e : ${hCours} h de cours, ${hTotal} h au total par semaine.`));
+    const manquants = plan.map((i) => [i, (i.prerequis ?? []).filter((p) => !reussis.has(p))]).filter(([, m]) => m.length).map(([i, m]) => `${i.sigle} (${m.join(", ")})`);
+    r.push(verdict(
+      bloquant,
+      "PREREQUIS",
+      manquants,
+      (l) => `Pr\xE9alables manquants : ${l}.`,
+      "Tous les pr\xE9alables sont satisfaits.",
+      "Pr\xE9alables de d\xE9mo : \xE0 valider dans le r\xE9pertoire officiel des cours."
+    ));
+    const aPlanifier = catalogue.filter((a) => a.type === "cours" && a.obligatoire && a.reconnu_diro !== false && !reussis.has(a.sigle) && !planifies.has(a.sigle));
+    const parBloc = Object.entries(Object.groupBy(aPlanifier.filter((a) => a.bloc), (a) => a.bloc)).map(([bloc, acts]) => `${bloc} : ${acts.map((a) => a.sigle).join(", ")}`);
+    r.push(verdict(
+      avertissement,
+      "BLOCS_OBLIGATOIRES",
+      parBloc,
+      (l) => `Cours obligatoires \xE0 planifier \u2014 ${l}.`,
+      "Les blocs obligatoires sont couverts.",
+      "Avertissement seulement : ces cours peuvent venir dans un trimestre ult\xE9rieur."
+    ));
+    r.push(verdict(
+      avertissement,
+      "COURS_REQUIS_DIPLOME",
+      aPlanifier.filter((a) => !a.bloc).map((a) => a.sigle),
+      (l) => `Cours requis pour le dipl\xF4me \xE0 planifier : ${l}.`,
+      "Les cours requis pour le dipl\xF4me sont couverts.",
+      "Catalogue de d\xE9mo partiel : la liste officielle du programme fait foi."
+    ));
+    r.push(verdict(
+      avertissement,
+      "NON_RECONNU_DIRO",
+      plan.filter((i) => i.reconnu_diro === false).map((i) => `${i.sigle} (${i.credits} cr\xE9dits)`),
+      (l) => `${l} : ne compte pas pour le dipl\xF4me.`,
+      "Toutes les activit\xE9s comptent pour le dipl\xF4me.",
+      "Activit\xE9 non reconnue par le DIRO."
+    ));
+    [
+      ["projet", "QUOTA_PROJETS", "quota_projets", "projets supervis\xE9s"],
+      ["seminaire", "QUOTA_SEMINAIRES", "quota_seminaires", "s\xE9minaires"]
+    ].forEach(([type, code, cle, nom]) => {
+      const n = plan.filter((i) => i.type === type).length;
+      r.push(n > regles[cle] ? bloquant(code, `${n} ${nom} au plan : maximum ${regles[cle]} par trimestre.`, "Quota de d\xE9mo : \xE0 valider.") : valide(code, `${n} / ${regles[cle]} ${nom}.`));
+    });
+    if (strict) {
+      r.push(avertissement("ECHANGE_APPROBATION", MENTION_ECHANGE, `Limite stricte de ${bMin} \xE0 ${bMax} cr\xE9dits par trimestre.`));
+    }
+    return r;
+  }
+
+  // src/main.js
+  var R = rulesToMap(program_rules_default);
+  var ACTIVITES = activities_default.map((a) => ({
+    type: "cours",
+    credits: 3,
+    bloc: null,
+    obligatoire: false,
+    reconnu_diro: true,
+    prerequis: [],
+    horaire: null,
+    charge_hebdo_h: 7,
+    ...a
+  }));
+  var ROLES = [
+    ["etudiant", "\xC9tudiant"],
+    ["encadrant", "Encadrant"],
+    ["conseil", "Conseil de programme"],
+    ["labo", "Laboratoire/organisation"],
+    ["registrariat", "Registrariat"]
+  ];
+  var APPRENTISSAGES = [["th\xE9orique", "Th\xE9orique"], ["pratique", "Pratique"], ["projet", "Par projet"], ["en groupe", "En groupe"]];
+  var ICONES = { vert: "\u2714", orange: "\u25B2", rouge: "\u2716" };
+  var LIBELLES = { vert: "Conforme", orange: "Avertissement", rouge: "Bloquant" };
+  var CLE = "diro-plan-v1";
+  var initial = () => ({
+    role: "etudiant",
+    vue: "profil",
+    etudiant: "A",
+    message: null,
+    profils: Object.fromEntries(students_default.map((e) => [
+      e.id,
+      { ...e, cible_credits: computeCreditTarget(e.credits_cumules, e.statut, R).cible }
+    ])),
+    plans: Object.fromEntries(students_default.map((e) => [e.id, []]))
+  });
+  var charger = () => {
+    try {
+      return { ...initial(), ...JSON.parse(localStorage.getItem(CLE)), message: null };
+    } catch {
+      return initial();
+    }
+  };
+  var sauver = () => {
+    try {
+      localStorage.setItem(CLE, JSON.stringify({ ...etat, message: null }));
+    } catch {
+    }
+  };
+  var etat = charger();
+  var $ = (s) => document.querySelector(s);
+  var esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  var opts = (liste, courant) => liste.map(([v, n]) => `<option value="${esc(v)}"${v === courant ? " selected" : ""}>${esc(n)}</option>`).join("");
+  var trouver = (id) => ACTIVITES.find((a) => a.id === id);
+  var horaireTexte = (a) => a.horaire ? a.horaire.map((c) => `${c.jour}. ${c.debut}\u2013${c.fin}`).join(", ") : "sans horaire fixe";
+  var fmt = (v) => typeof v === "object" ? Object.entries(v).map(([k, n]) => `${n} ${k}`).join(" + ") : v;
+  var typeLibelle = (a) => a.type === "projet" ? "Projet supervis\xE9" : !a.reconnu_diro ? "Hors DIRO" : a.obligatoire ? "Obligatoire" : "\xC0 option";
+  var resultat = (r) => `<li class="res ${r.etat}"><span class="ico" aria-hidden="true">${ICONES[r.etat]}</span><div><span class="etat">${LIBELLES[r.etat]}.</span>${esc(r.message)}${r.raison ? `<p>${esc(r.raison)}</p>` : ""}</div></li>`;
+  var legende = () => `<aside class="legende" aria-label="L\xE9gende"><strong>Intention</strong> : aucune place n'est retenue. <strong>Place r\xE9serv\xE9e</strong> : confirm\xE9e par l'encadrant ou l'inscription officielle. Rien de ce plan n'est r\xE9serv\xE9.</aside>`;
+  var entete = () => `<header>
+  <h1>Planification des \xE9tudes \u2014 DIRO</h1>
+  <div class="barre">
+    <label>R\xF4le (d\xE9mo)<select data-champ="role" data-f="role">${opts(ROLES, etat.role)}</select></label>
+    <label>\xC9tudiant (d\xE9mo)<select data-champ="etudiant" data-f="etudiant">${opts(students_default.map((e) => [e.id, e.nom]), etat.etudiant)}</select></label>
+    <button type="button" data-act="reinit" data-f="reinit">R\xE9initialiser les donn\xE9es de d\xE9mo</button>
+  </div>
+  <nav aria-label="\xC9crans">${[["profil", "Profil"], ["plan", "Plan du trimestre"]].map(([v, n]) => `<button type="button" data-act="vue" data-id="${v}" data-f="vue-${v}"${etat.vue === v ? ' aria-current="page"' : ""}>${n}</button>`).join("")}</nav>
+</header>`;
+  function vueProfil() {
+    const p = etat.profils[etat.etudiant];
+    const restants = Math.max(0, R.credits_total_diplome - p.credits_cumules);
+    const [min, max] = bornesCredits(p.statut, R).map((b) => Math.min(b, restants));
+    const res = validateProfile(p, R);
+    const bloque = res.some((r) => !r.ok);
+    return `<main id="contenu" tabindex="-1">
+  <h2>Profil</h2>
+  <div class="champs">
+    <p>Programme : <strong>Baccalaur\xE9at en informatique</strong></p>
+    <label>Statut<select data-champ="statut" data-f="statut">${opts([["regulier", "R\xE9gulier"], ["echange", "\xC9change"]], p.statut)}</select></label>
+    <label>Cr\xE9dits cumul\xE9s<input type="number" min="0" max="${R.credits_total_diplome}" value="${p.credits_cumules}" data-champ="credits_cumules" data-f="cumul"></label>
+    <label>Trimestre courant<input value="${esc(p.trimestre)}" data-champ="trimestre" data-f="trimestre"></label>
+    <label>Int\xE9r\xEAts (s\xE9par\xE9s par des virgules)<input value="${esc(p.interets.join(", "))}" data-champ="interets" data-f="interets"></label>
+    <label>Fa\xE7on d'apprendre<select data-champ="apprentissage" data-f="appr">${opts(APPRENTISSAGES, p.apprentissage)}</select></label>
+    <label>Cible de cr\xE9dits : <output>${p.cible_credits}</output> (de ${min} \xE0 ${max})<input type="range" min="${min}" max="${max}" value="${p.cible_credits}" data-champ="cible_credits" data-f="cible"></label>
+  </div>
+  ${p.statut === "echange" ? `<p class="note">${esc(MENTION_ECHANGE)}</p>` : ""}
+  <h3>Validation</h3>
+  <ul>${res.map(resultat).join("")}</ul>
+  <button type="button" data-act="vue" data-id="plan" data-f="continuer"${bloque ? " disabled" : ""}>Continuer vers le plan</button>
+  ${bloque ? "<p>Corrigez les points bloquants pour continuer.</p>" : ""}
+  <h3>R\xE8gles du programme (lecture seule)</h3>
+  <table><caption class="sr">R\xE8gles du programme</caption>
+  <thead><tr><th scope="col">R\xE8gle</th><th scope="col">Valeur</th><th scope="col">Explication</th></tr></thead>
+  <tbody>${program_rules_default.map((r) => `<tr><th scope="row"><code>${r.cle}</code></th><td>${esc(fmt(r.valeur))}</td><td>${esc(r.explication)} ${r.a_valider ? '<span class="badge">\xE0 valider</span>' : ""}</td></tr>`).join("")}</tbody></table>
+</main>`;
+  }
+  var carte = (a, auPlan, p) => {
+    const manquants = a.prerequis.filter((s) => !p.reussis.includes(s));
+    return `<li><strong>${esc(a.sigle)}</strong> ${esc(a.titre)} <span class="badge">${typeLibelle(a)}</span>${a.fictif ? ' <span class="badge">fictif</span>' : ""}
+  <p>${a.credits} cr\xE9dits, ${esc(horaireTexte(a))}${a.bloc ? `, bloc ${esc(a.bloc)}` : ""}. <span class="badge">horaire de d\xE9mo</span></p>
+  ${a.prerequis.length ? `<p>Pr\xE9alables (d\xE9mo, \xE0 valider) : ${esc(a.prerequis.join(", "))}${manquants.length ? `. Manquants : ${esc(manquants.join(", "))}` : ""}.</p>` : ""}
+  ${a.reconnu_diro ? "" : '<p class="note">Ne compte pas pour le dipl\xF4me.</p>'}
+  ${auPlan ? '<span class="badge">Au plan</span>' : `<button type="button" data-act="ajouter" data-id="${a.id}" data-f="a-${a.id}">Ajouter ${esc(a.sigle)}</button>`}</li>`;
+  };
+  function vuePlan() {
+    const p = etat.profils[etat.etudiant];
+    const plan = etat.plans[etat.etudiant].map(trouver);
+    const dansPlan = new Set(plan.map((a) => a.id));
+    const total = plan.reduce((s, a) => s + a.credits, 0);
+    return `<main id="contenu" tabindex="-1">
+  <h2>Plan du trimestre : ${esc(p.trimestre)}</h2>
+  ${etat.message ? `<ul>${resultat(etat.message)}</ul>` : ""}
+  ${legende()}
+  <div class="deux">
+    <section aria-labelledby="t-cat"><h3 id="t-cat">Catalogue</h3><ul>${ACTIVITES.map((a) => carte(a, dansPlan.has(a.id), p)).join("")}</ul></section>
+    <section aria-labelledby="t-plan"><h3 id="t-plan">Mon plan (intention) : ${total} cr\xE9dits</h3>
+      ${plan.length ? `<ul>${plan.map((a) => `<li>${esc(a.sigle)} ${esc(a.titre)}, ${esc(horaireTexte(a))}
+        <button type="button" data-act="retirer" data-id="${a.id}" data-f="r-${a.id}">Retirer ${esc(a.sigle)}</button></li>`).join("")}</ul>` : "<p>Aucune activit\xE9. Ajoutez-en depuis le catalogue.</p>"}
+      <h3>Contraintes</h3>
+      <ul>${checkConstraints(plan, R, p, ACTIVITES).map(resultat).join("")}</ul>
+    </section>
+  </div>
+</main>`;
+  }
+  var avisRole = () => `<main id="contenu" tabindex="-1"><h2>${esc(ROLES.find(([v]) => v === etat.role)[1])}</h2>
+  <p class="note">Cette vue n'est pas encore construite. Choisissez le r\xF4le \xAB \xC9tudiant \xBB pour voir les \xE9crans disponibles.</p></main>`;
+  function ajouter(a, ids) {
+    const concernes = detectOverlaps([...ids.map(trouver), a]).filter((r) => r.paire?.includes(a.id));
+    const dur = concernes.find((r) => !r.ok);
+    if (dur) {
+      etat.message = { ...dur, message: `${a.sigle} non ajout\xE9. ${dur.message}` };
+      return;
+    }
+    ids.push(a.id);
+    etat.message = concernes[0] ? { ...concernes[0], message: `${a.sigle} ajout\xE9 au plan. ${concernes[0].message}` } : { etat: "vert", message: `${a.sigle} ajout\xE9 au plan (intention).`, raison: "" };
+  }
+  function modifier(c) {
+    const p = etat.profils[etat.etudiant];
+    const { champ } = c.dataset;
+    if (champ === "etudiant" || champ === "role") etat[champ] = c.value;
+    else {
+      p[champ] = champ === "interets" ? c.value.split(",").map((s) => s.trim()).filter(Boolean) : ["credits_cumules", "cible_credits"].includes(champ) ? Number(c.value) : c.value;
+      if (champ === "statut" || champ === "credits_cumules") {
+        p.cible_credits = computeCreditTarget(p.credits_cumules, p.statut, R).cible ?? p.cible_credits;
+      }
+    }
+    etat.message = null;
+    suite();
+  }
+  function agir(act, id) {
+    const ids = etat.plans[etat.etudiant];
+    if (act === "vue") {
+      etat.vue = id;
+      etat.message = null;
+    } else if (act === "reinit") etat = initial();
+    else if (act === "retirer") {
+      ids.splice(ids.indexOf(id), 1);
+      etat.message = null;
+    } else if (act === "ajouter") ajouter(trouver(id), ids);
+    suite();
+  }
+  var suite = () => {
+    sauver();
+    annoncer();
+    render();
+  };
+  function annoncer() {
+    const cs = checkConstraints(etat.plans[etat.etudiant].map(trouver), R, etat.profils[etat.etudiant], ACTIVITES);
+    const n = (e) => cs.filter((r) => r.etat === e).length;
+    $("#annonce").textContent = `${etat.message ? `${etat.message.message} ` : ""}Plan : ${n("rouge")} contrainte(s) bloquante(s), ${n("orange")} avertissement(s).`;
+  }
+  function render() {
+    const f = document.activeElement?.dataset?.f;
+    const corps = etat.role !== "etudiant" ? avisRole() : etat.vue === "plan" ? vuePlan() : vueProfil();
+    $("#app").innerHTML = entete() + corps;
+    if (f) ($(`[data-f="${f}"]`) ?? $("#contenu"))?.focus();
+  }
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-act]");
+    if (b) agir(b.dataset.act, b.dataset.id);
+  });
+  document.addEventListener("change", (e) => {
+    const c = e.target.closest("[data-champ]");
+    if (c) modifier(c);
+  });
+  render();
+})();
+</script>
+</body>
+</html>

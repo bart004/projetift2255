@@ -1,0 +1,17 @@
+[
+  { "cle": "credits_total_diplome", "valeur": 90, "explication": "Le baccalauréat en informatique compte 90 crédits.", "a_valider": true },
+  { "cle": "credits_min_regulier", "valeur": 12, "explication": "Seuil de temps plein (impact sur prêts et bourses).", "a_valider": true },
+  { "cle": "credits_max_regulier", "valeur": 18, "explication": "Plafond de démo à valider. Voir le règlement des études de 1er cycle.", "a_valider": true },
+  { "cle": "credits_min_echange", "valeur": 12, "explication": "Minimum pour un étudiant d'échange au 1er cycle.", "a_valider": true },
+  { "cle": "credits_max_echange", "valeur": 15, "explication": "Maximum pour un étudiant d'échange au 1er cycle.", "a_valider": true },
+  { "cle": "credits_par_cours_typique", "valeur": 3, "explication": "1 crédit égale 15 h par trimestre. 3 crédits égalent 3 h par semaine pendant 15 semaines.", "a_valider": true },
+  { "cle": "heures_par_credit_semaine", "valeur": 1, "explication": "Une heure de cours par semaine par crédit.", "a_valider": true },
+  { "cle": "plafond_heures_cours_semaine", "valeur": 15, "explication": "Plafond de démo pour détecter une surcharge.", "a_valider": true },
+  { "cle": "plafond_charge_totale_semaine", "valeur": 45, "explication": "Cours, travail personnel et projets. Valeur de démo.", "a_valider": true },
+  { "cle": "tronc_commun", "valeur": { "obligatoire": 51, "option": 6, "libre": 6 }, "explication": "Segment 01 du programme : 51 crédits obligatoires, 6 à option et 6 libres.", "a_valider": true },
+  { "cle": "orientation_generale", "valeur": { "obligatoire": 6, "option": 21 }, "explication": "Segment 76 : 6 crédits obligatoires et 21 à option.", "a_valider": true },
+  { "cle": "quota_projets", "valeur": 1, "explication": "1 projet supervisé maximum par trimestre. Valeur de démo.", "a_valider": true },
+  { "cle": "quota_seminaires", "valeur": 1, "explication": "1 séminaire maximum par trimestre. Valeur de démo.", "a_valider": true },
+  { "cle": "plafond_demandes_simultanees", "valeur": 3, "explication": "Limite de demandes en attente par étudiant.", "a_valider": true },
+  { "cle": "delai_relance_heures", "valeur": 48, "explication": "Une redemande dans ce délai après expiration est une « relance ».", "a_valider": true }
+]
