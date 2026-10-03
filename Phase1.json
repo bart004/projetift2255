@@ -1,0 +1,1658 @@
+{
+  "version": "31.6.0",
+  "data": "<mxfile host=\"app.diagrams.net\"><diagram name=\"Page-1\" id=\"9Rir4zVyAO7QaP5zqvP0\"><mxGraphModel dx=\"4488\" dy=\"2368\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"100000\" pageHeight=\"1000000\" math=\"0\" shadow=\"0\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2bjkZiGz_CUWRqImzZem-407\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=none;\" value=\"\" vertex=\"1\"><mxGeometry height=\"768.09\" width=\"1380\" x=\"1880\" y=\"2429.04\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-1\" parent=\"1\" style=\"rounded=1;whiteSpace=wrap;html=1;arcSize=21;\" value=\"\" vertex=\"1\"><mxGeometry height=\"700\" width=\"480\" x=\"470\" y=\"540\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-13\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-2\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-12\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-19\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-2\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-16\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-30\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-2\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-28\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"440\" y=\"830\"/><mxPoint x=\"440\" y=\"917.5\"/></Array></mxGeometry></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-45\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-2\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-43\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-46\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-2\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-44\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"631.2\" y=\"790\"/></Array></mxGeometry></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-2\" parent=\"1\" style=\"shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;\" value=\"Étudiant\" vertex=\"1\"><mxGeometry height=\"60\" width=\"30\" x=\"390\" y=\"770\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-27\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-3\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-26\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-33\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-3\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-32\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-3\" parent=\"1\" style=\"shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;\" value=\"Professeur\" vertex=\"1\"><mxGeometry height=\"60\" width=\"30\" x=\"390\" y=\"1100\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-36\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-4\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-35\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-49\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-4\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-47\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"980\" y=\"770\"/><mxPoint x=\"980\" y=\"815\"/></Array></mxGeometry></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-4\" parent=\"1\" style=\"shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;\" value=\"Conseiller\" vertex=\"1\"><mxGeometry height=\"60\" width=\"30\" x=\"1000\" y=\"740\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-34\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-5\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-31\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-71\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-5\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-70\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-5\" parent=\"1\" style=\"shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;\" value=\"Registraire\" vertex=\"1\"><mxGeometry height=\"60\" width=\"35\" x=\"1005\" y=\"910\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-39\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-6\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-38\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-41\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-6\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-40\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-6\" parent=\"1\" style=\"shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;\" value=\"Laboratoire/Organisations\" vertex=\"1\"><mxGeometry height=\"60\" width=\"30\" x=\"1010\" y=\"1100\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-12\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Voir les exigences du programme&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"70\" width=\"120\" x=\"500\" y=\"800\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-14\" parent=\"1\" style=\"shape=stencil(fZbdcgIhDIWfZm8zQAg/17Z9j85U606tdqz9e/tmZ0c0uJ47xP0I5JwEBl59bp8/1kNwn6fj4W39M76ctgM/DCGM++36OJ50NPDjwKvN4bh+PR6+9i/z74/n6ctp9H74nlb4nbmSKZeJCu5vngmZ6jzzNAO7cX8FVKEsBuBKrgKg9oAE8gkCbLeUhEoEQKSUDZDLeWYRKIl8MEDRmHwfyBrBG6Amyu4+kDxxMoB3jhwgYu7TVAsVkFcWCs4CTBEoF4RctKeOxHIf8IXYpikHikAIf+MNUW94AGSSaoAoFIE3AlOyeWU+p2E5S9yfQZcQILVuQOwZdJNoS9Ls3wA5u2XZTIHECqeJ9kDpSaauRiNVcAY1QhdBzeLBli5WazpkSsBLV25uRaqWRyFawTQzRRIQYirJzq5atkBqLfouwqUxLBepthWb10vrWZY6UOAeyKCCtDV625mm9gmUC4Wc3VLJMMIE1BsA2FW9JraVlQB7n3c9oMKhCLEvIM1zBPZ25/umNQ1tVEC2G+fFCC8g398O2hNQuQlVu752DBfA+q0ptnqO5JFmeuIuo9DY7KjY71UxdJV4EntifPWorW++R/dC4t7V3DlIB5cHx2bc7eb3yvX//QNFp+bHDT/+Aw==);lineShape=1;strokeColor=default;\" value=\"\" vertex=\"1\"><mxGeometry height=\"4.665236216357698\" width=\"4.672539772115442\" x=\"664.2679852565382\" y=\"725.2752910962145\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-22\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-15\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-12\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-15\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Totaux de crédits requis, nombre de cours requis, quotas de projets ou de séminaire\" vertex=\"1\"><mxGeometry height=\"70\" width=\"120\" x=\"620\" y=\"795\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-16\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Consulte son historique de cours&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"70\" width=\"120\" x=\"500\" y=\"950\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-17\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Voir pourquoi l'étudiant est refusé&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"650\" y=\"940\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-18\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-16\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;\" target=\"x3wJnEu72abw8KxnmCof-17\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-25\" edge=\"1\" parent=\"1\" source=\"x3wJnEu72abw8KxnmCof-24\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;\" target=\"x3wJnEu72abw8KxnmCof-17\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-24\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Chevauchement de cours, application trop âgée\" vertex=\"1\"><mxGeometry height=\"35\" width=\"160\" x=\"630\" y=\"1045\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-26\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Accepte/refuse les demandes&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"500\" y=\"1040\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-28\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Voir les événements importants pour son programme&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"45\" width=\"240\" x=\"490\" y=\"895\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-31\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Instaurer les contraintes pour chaque programme&amp;nbsp;&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"780\" y=\"870\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-32\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ajoute/Refuse des cours et leurs blocs horaires&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"500\" y=\"1140\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-35\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Voir les contraintes pour chaque programme&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"800\" y=\"680\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-38\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ajoute/Modification de stages&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"800\" y=\"1030\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-40\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Accepte/Refuse les demandes de stages&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"790\" y=\"1130\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-43\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Envoyer des demandes de cours&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"70\" width=\"100\" x=\"510\" y=\"670\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-44\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Planification de chaques sémestres&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"70\" width=\"100\" x=\"616.6\" y=\"692.61\" as=\"geometry\"/></mxCell><mxCell id=\"x3wJnEu72abw8KxnmCof-47\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Voir les cours qui correspond aux intérêts de l'étudiant&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"780\" y=\"775\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-2\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Utilisateur\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"1350\" y=\"653\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-7\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" source=\"EfzPhMQtqPS5q-U5fm6h-5\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-6\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-5\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"40\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-6\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Voir son programme\" vertex=\"1\"><mxGeometry height=\"35\" width=\"120\" x=\"40\" y=\"110\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-18\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" source=\"EfzPhMQtqPS5q-U5fm6h-14\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-17\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-14\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Choisir les cours\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"40\" y=\"190\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-22\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" source=\"EfzPhMQtqPS5q-U5fm6h-17\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-19\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-69\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" source=\"EfzPhMQtqPS5q-U5fm6h-17\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-14\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"30\" y=\"295\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-17\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"rhombus;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"\" vertex=\"1\"><mxGeometry height=\"50\" width=\"50\" x=\"75\" y=\"270\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-19\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"82.5\" y=\"345\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-20\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"347.5\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-37\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Valider\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"100\" y=\"230\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-38\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Annuler\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"117.5\" y=\"315\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-39\" parent=\"EfzPhMQtqPS5q-U5fm6h-2\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Refus\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"15\" y=\"240\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-3\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Système\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"1550\" y=\"653\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-13\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-3\" source=\"EfzPhMQtqPS5q-U5fm6h-9\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-12\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-9\" parent=\"EfzPhMQtqPS5q-U5fm6h-3\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Vérifier quelle programme\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"40\" y=\"112.5\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-12\" parent=\"EfzPhMQtqPS5q-U5fm6h-3\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Déterminer les contraintes\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"40\" y=\"190\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-34\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-3\" source=\"EfzPhMQtqPS5q-U5fm6h-30\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-32\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-30\" parent=\"EfzPhMQtqPS5q-U5fm6h-3\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Sauvegarder le choix de cours\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"40\" y=\"440\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-32\" parent=\"EfzPhMQtqPS5q-U5fm6h-3\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"82.5\" y=\"520\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-33\" parent=\"EfzPhMQtqPS5q-U5fm6h-3\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"522.5\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-10\" edge=\"1\" parent=\"1\" source=\"EfzPhMQtqPS5q-U5fm6h-6\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#2b4554, #ededed);\" target=\"EfzPhMQtqPS5q-U5fm6h-9\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-15\" edge=\"1\" parent=\"1\" source=\"EfzPhMQtqPS5q-U5fm6h-12\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-14\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-23\" edge=\"1\" parent=\"1\" source=\"EfzPhMQtqPS5q-U5fm6h-41\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-30\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"1650\" y=\"983\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-54\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Système\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"2050\" y=\"653\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-3\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" source=\"ACXTmjAoUY7t7XqXyrCZ-71\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-2\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"130\" y=\"132.5\" as=\"sourcePoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-7\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" source=\"2bjkZiGz_CUWRqImzZem-2\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-6\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-2\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Refuser le cours\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"70\" y=\"230\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-5\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" source=\"2bjkZiGz_CUWRqImzZem-4\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-10\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"50\" y=\"510\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-4\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Ajout à l'horaire\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"10\" y=\"270\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-67\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" source=\"ACXTmjAoUY7t7XqXyrCZ-71\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-4\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"70\" y=\"132.5\" as=\"sourcePoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-8\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" source=\"2bjkZiGz_CUWRqImzZem-6\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-9\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"140\" y=\"450\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-6\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Donner une raison\" vertex=\"1\"><mxGeometry height=\"30\" width=\"100\" x=\"90\" y=\"340\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-13\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" source=\"2bjkZiGz_CUWRqImzZem-9\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-11\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"170\" y=\"527.5\"/><mxPoint x=\"145\" y=\"527.5\"/><mxPoint x=\"145\" y=\"587.5\"/></Array></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-9\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Ajouter à l'historique de cours\" vertex=\"1\"><mxGeometry height=\"35\" width=\"120\" x=\"80\" y=\"450\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-14\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" source=\"2bjkZiGz_CUWRqImzZem-10\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-11\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-10\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Changer les contraintes de l'horaire\" vertex=\"1\"><mxGeometry height=\"35\" width=\"130\" x=\"10\" y=\"520\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-11\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"90\" y=\"570\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-12\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"92.5\" y=\"572.5\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-71\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"rhombus;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"\" vertex=\"1\"><mxGeometry height=\"50\" width=\"50\" x=\"70\" y=\"90\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-74\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Accepte\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"10\" y=\"150\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-75\" parent=\"EfzPhMQtqPS5q-U5fm6h-54\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Refuse\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"110\" y=\"150\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-70\" parent=\"1\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"&lt;br&gt;Ajouter/Modifier un programme\" vertex=\"1\"><mxGeometry height=\"60\" width=\"100\" x=\"805\" y=\"960\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-42\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Utilisateur\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"1850\" y=\"653\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-43\" edge=\"1\" parent=\"EfzPhMQtqPS5q-U5fm6h-42\" source=\"EfzPhMQtqPS5q-U5fm6h-44\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-45\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-44\" parent=\"EfzPhMQtqPS5q-U5fm6h-42\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"40\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-45\" parent=\"EfzPhMQtqPS5q-U5fm6h-42\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Envoyer une demande\" vertex=\"1\"><mxGeometry height=\"35\" width=\"120\" x=\"40\" y=\"110\" as=\"geometry\"/></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-66\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-73\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#2b4554, #ededed);entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"ACXTmjAoUY7t7XqXyrCZ-71\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"2145\" y=\"723\"/></Array><mxPoint x=\"2090\" y=\"780.5\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-22\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Utilisateur\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"1350\" y=\"1303\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-23\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-22\" source=\"2bjkZiGz_CUWRqImzZem-24\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-25\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-24\" parent=\"2bjkZiGz_CUWRqImzZem-22\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"40\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-25\" parent=\"2bjkZiGz_CUWRqImzZem-22\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Ajouter son cours dans un fichier\" vertex=\"1\"><mxGeometry height=\"35\" width=\"120\" x=\"40\" y=\"110\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-69\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-22\" source=\"2bjkZiGz_CUWRqImzZem-67\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-25\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-67\" parent=\"2bjkZiGz_CUWRqImzZem-22\" style=\"rhombus;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"\" vertex=\"1\"><mxGeometry height=\"50\" width=\"50\" x=\"75\" y=\"440\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-70\" parent=\"2bjkZiGz_CUWRqImzZem-22\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Ajout de plus qu'un cours\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"40\" y=\"241\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-73\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-22\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-74\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"100\" y=\"490\" as=\"sourcePoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-74\" parent=\"2bjkZiGz_CUWRqImzZem-22\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"82.5\" y=\"540\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-75\" parent=\"2bjkZiGz_CUWRqImzZem-22\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"542.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-76\" parent=\"2bjkZiGz_CUWRqImzZem-22\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Plus de cours\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"118\" y=\"510\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-34\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Système\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"1550\" y=\"1303\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-35\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-34\" source=\"2bjkZiGz_CUWRqImzZem-36\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-37\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-36\" parent=\"2bjkZiGz_CUWRqImzZem-34\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Prendre les cours d'un fichier\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"40\" y=\"112.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-37\" parent=\"2bjkZiGz_CUWRqImzZem-34\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Séparer chacune des&lt;div&gt;contraintes&amp;nbsp;&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"40\" y=\"190\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-56\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-34\" source=\"2bjkZiGz_CUWRqImzZem-29\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-57\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"50\" y=\"295\"/></Array><mxPoint x=\"30\" y=\"420\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-29\" parent=\"2bjkZiGz_CUWRqImzZem-34\" style=\"rhombus;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"\" vertex=\"1\"><mxGeometry height=\"50\" width=\"50\" x=\"75\" y=\"270\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-26\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-34\" source=\"2bjkZiGz_CUWRqImzZem-37\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-29\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-51\" parent=\"2bjkZiGz_CUWRqImzZem-34\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"82.5\" y=\"370\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-52\" parent=\"2bjkZiGz_CUWRqImzZem-34\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"372.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-54\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-34\" source=\"2bjkZiGz_CUWRqImzZem-29\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-51\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-57\" parent=\"2bjkZiGz_CUWRqImzZem-34\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Mettre l'horaire, les crédits et créer le bloc\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"20\" y=\"450\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-58\" parent=\"2bjkZiGz_CUWRqImzZem-34\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Valide\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"-10\" y=\"342.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-46\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-25\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#2b4554, #ededed);\" target=\"2bjkZiGz_CUWRqImzZem-36\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-55\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Invalide\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"1670\" y=\"1633\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-68\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-57\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;\" target=\"2bjkZiGz_CUWRqImzZem-67\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"3120\" y=\"3068\" as=\"sourcePoint\"/><mxPoint x=\"3040\" y=\"3068\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-77\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Utilisateur\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"1840\" y=\"1303\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-78\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-77\" source=\"2bjkZiGz_CUWRqImzZem-79\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-80\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-79\" parent=\"2bjkZiGz_CUWRqImzZem-77\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"40\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-80\" parent=\"2bjkZiGz_CUWRqImzZem-77\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Ajouter son stage à un fichier\" vertex=\"1\"><mxGeometry height=\"35\" width=\"120\" x=\"40\" y=\"110\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-81\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-77\" source=\"2bjkZiGz_CUWRqImzZem-82\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-80\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-82\" parent=\"2bjkZiGz_CUWRqImzZem-77\" style=\"rhombus;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"\" vertex=\"1\"><mxGeometry height=\"50\" width=\"50\" x=\"75\" y=\"440\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-83\" parent=\"2bjkZiGz_CUWRqImzZem-77\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Ajout de plus qu'un stage\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"40\" y=\"241\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-84\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-77\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-85\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"100\" y=\"490\" as=\"sourcePoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-85\" parent=\"2bjkZiGz_CUWRqImzZem-77\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"82.5\" y=\"540\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-86\" parent=\"2bjkZiGz_CUWRqImzZem-77\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"542.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-87\" parent=\"2bjkZiGz_CUWRqImzZem-77\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Aucun stage\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"118\" y=\"510\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-88\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Système\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"2040\" y=\"1303\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-89\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-88\" source=\"2bjkZiGz_CUWRqImzZem-90\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-91\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-90\" parent=\"2bjkZiGz_CUWRqImzZem-88\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Prendre les stages d'un fichier\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"40\" y=\"112.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-91\" parent=\"2bjkZiGz_CUWRqImzZem-88\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Séparer chacune des&lt;div&gt;contraintes&amp;nbsp;&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"40\" y=\"190\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-92\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-88\" source=\"2bjkZiGz_CUWRqImzZem-93\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-98\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"50\" y=\"295\"/></Array><mxPoint x=\"30\" y=\"420\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-93\" parent=\"2bjkZiGz_CUWRqImzZem-88\" style=\"rhombus;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"\" vertex=\"1\"><mxGeometry height=\"50\" width=\"50\" x=\"75\" y=\"270\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-94\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-88\" source=\"2bjkZiGz_CUWRqImzZem-91\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-93\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-95\" parent=\"2bjkZiGz_CUWRqImzZem-88\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"82.5\" y=\"370\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-96\" parent=\"2bjkZiGz_CUWRqImzZem-88\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"372.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-97\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-88\" source=\"2bjkZiGz_CUWRqImzZem-93\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-95\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-98\" parent=\"2bjkZiGz_CUWRqImzZem-88\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Mettre le seuil, les exigences et l'horaire\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"20\" y=\"450\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-99\" parent=\"2bjkZiGz_CUWRqImzZem-88\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Valide\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"-10\" y=\"342.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-100\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-80\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#2b4554, #ededed);\" target=\"2bjkZiGz_CUWRqImzZem-90\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-101\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Invalide\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"2160\" y=\"1633\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-102\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-98\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;\" target=\"2bjkZiGz_CUWRqImzZem-82\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"3610\" y=\"3068\" as=\"sourcePoint\"/><mxPoint x=\"3530\" y=\"3068\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-103\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Utilisateur\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"2300\" y=\"653\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-104\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-103\" source=\"2bjkZiGz_CUWRqImzZem-105\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-106\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-105\" parent=\"2bjkZiGz_CUWRqImzZem-103\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"40\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-106\" parent=\"2bjkZiGz_CUWRqImzZem-103\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Ajouter un programme à un fichier\" vertex=\"1\"><mxGeometry height=\"50\" width=\"120\" x=\"40\" y=\"95\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-107\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-103\" source=\"2bjkZiGz_CUWRqImzZem-108\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-106\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-108\" parent=\"2bjkZiGz_CUWRqImzZem-103\" style=\"rhombus;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"\" vertex=\"1\"><mxGeometry height=\"50\" width=\"50\" x=\"75\" y=\"495\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-109\" parent=\"2bjkZiGz_CUWRqImzZem-103\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Ajout de plus qu'un stage\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"40\" y=\"241\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-110\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-103\" source=\"2bjkZiGz_CUWRqImzZem-108\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-111\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"100\" y=\"515\" as=\"sourcePoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-111\" parent=\"2bjkZiGz_CUWRqImzZem-103\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"82.5\" y=\"565\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-112\" parent=\"2bjkZiGz_CUWRqImzZem-103\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"567.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-113\" parent=\"2bjkZiGz_CUWRqImzZem-103\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Aucun programme\" vertex=\"1\"><mxGeometry height=\"10\" width=\"60\" x=\"115\" y=\"545\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-114\" parent=\"1\" style=\"swimlane;whiteSpace=wrap;html=1;\" value=\"Système\" vertex=\"1\"><mxGeometry height=\"610\" width=\"200\" x=\"2500\" y=\"653\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-115\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-114\" source=\"2bjkZiGz_CUWRqImzZem-116\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-117\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-116\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Prendre les programme d'un fichier\" vertex=\"1\"><mxGeometry height=\"50\" width=\"120\" x=\"40\" y=\"95\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-117\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Séparer chaque cours pour chaque fichier\" vertex=\"1\"><mxGeometry height=\"50\" width=\"120\" x=\"40\" y=\"190\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-118\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-114\" source=\"2bjkZiGz_CUWRqImzZem-119\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-124\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"50.03\" y=\"317.52\"/></Array><mxPoint x=\"30\" y=\"420\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-119\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"rhombus;whiteSpace=wrap;html=1;shapeInside=1;\" value=\"\" vertex=\"1\"><mxGeometry height=\"50\" width=\"50\" x=\"75\" y=\"292.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-120\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-114\" source=\"2bjkZiGz_CUWRqImzZem-117\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-119\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-121\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;\" value=\"\" vertex=\"1\"><mxGeometry height=\"35\" width=\"35\" x=\"82.5\" y=\"370\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-122\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;\" value=\"\" vertex=\"1\"><mxGeometry height=\"30\" width=\"30\" x=\"85\" y=\"372.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-123\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-114\" source=\"2bjkZiGz_CUWRqImzZem-119\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-121\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-131\" edge=\"1\" parent=\"2bjkZiGz_CUWRqImzZem-114\" source=\"2bjkZiGz_CUWRqImzZem-124\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-130\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-124\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Mettre les contraintes du programme\" vertex=\"1\"><mxGeometry height=\"30\" width=\"120\" x=\"20\" y=\"450\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-125\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Valide\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"-10\" y=\"342.5\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-130\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"rounded=1;whiteSpace=wrap;html=1;\" value=\"Définir les intérêts du programme\" vertex=\"1\"><mxGeometry height=\"60\" width=\"120\" x=\"20\" y=\"495\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-77\" parent=\"2bjkZiGz_CUWRqImzZem-114\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Valider le Programme\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"115\" y=\"251\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-126\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-106\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#2b4554, #ededed);\" target=\"2bjkZiGz_CUWRqImzZem-116\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-127\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Un cours invalide\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"2620\" y=\"983\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-128\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-130\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-108\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"2520\" y=\"1173\"/></Array><mxPoint x=\"2520\" y=\"1233\" as=\"sourcePoint\"/><mxPoint x=\"2400\" y=\"1203\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-135\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Prototype Visé\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"680\" y=\"560\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-140\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"260\" width=\"260\" x=\"550\" y=\"1930\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-143\" connectable=\"0\" parent=\"2bjkZiGz_CUWRqImzZem-140\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" y=\"70\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-137\" parent=\"2bjkZiGz_CUWRqImzZem-143\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-142\" parent=\"2bjkZiGz_CUWRqImzZem-143\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Étudiant&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;(personne)&lt;br&gt;&lt;/div&gt;&lt;p&gt;Un étudiant de l'UDEM qui choisi son sémestre&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"120\" width=\"180\" x=\"40\" y=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-136\" parent=\"2bjkZiGz_CUWRqImzZem-140\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"120\" width=\"120\" x=\"70\" y=\"-50\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-150\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-148\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-153\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-148\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Entre les paramètres pour la simulation\" vertex=\"1\"><mxGeometry height=\"65\" width=\"60\" x=\"650\" y=\"2230\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-147\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-137\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-148\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"680\" y=\"2140\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-151\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"260\" width=\"260\" x=\"550\" y=\"2270\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-152\" connectable=\"0\" parent=\"2bjkZiGz_CUWRqImzZem-151\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" y=\"70\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-153\" parent=\"2bjkZiGz_CUWRqImzZem-152\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-154\" parent=\"2bjkZiGz_CUWRqImzZem-152\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Simulateur&lt;/h1&gt;&lt;div style=&quot;text-align: center;&quot;&gt;(Système informatique)&lt;/div&gt;&lt;p&gt;Permet aux étudiants de simuler un sémestre de l'université&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"120\" width=\"180\" x=\"40\" y=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-162\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"260\" width=\"260\" x=\"140\" y=\"1920\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-163\" connectable=\"0\" parent=\"2bjkZiGz_CUWRqImzZem-162\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" y=\"70\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-164\" parent=\"2bjkZiGz_CUWRqImzZem-163\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-165\" parent=\"2bjkZiGz_CUWRqImzZem-163\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Professeur&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left;&quot;&gt;(personne)&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Un Professeur de l'UDEM qui modifie son cours&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"120\" width=\"210\" x=\"40\" y=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-166\" parent=\"2bjkZiGz_CUWRqImzZem-162\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"120\" width=\"120\" x=\"70\" y=\"-50\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-168\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"260\" width=\"260\" x=\"160\" y=\"2530\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-169\" connectable=\"0\" parent=\"2bjkZiGz_CUWRqImzZem-168\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" y=\"70\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-170\" parent=\"2bjkZiGz_CUWRqImzZem-169\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-171\" parent=\"2bjkZiGz_CUWRqImzZem-169\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Registraire&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left;&quot;&gt;(Groupe)&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Le registraire de l'UDEM qui s'occupe des programmes&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"120\" width=\"210\" x=\"40\" y=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-172\" parent=\"2bjkZiGz_CUWRqImzZem-168\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"120\" width=\"120\" x=\"70\" y=\"-50\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-175\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"300\" width=\"300\" x=\"920\" y=\"2500\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-176\" connectable=\"0\" parent=\"2bjkZiGz_CUWRqImzZem-175\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"219.23076923076925\" width=\"300\" y=\"80.76923076923077\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-177\" parent=\"2bjkZiGz_CUWRqImzZem-176\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"219.23076923076925\" width=\"300\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-178\" parent=\"2bjkZiGz_CUWRqImzZem-176\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Laboratoire/&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Organisation&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left;&quot;&gt;(Groupe)&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Des compagnies externes qui tentent de chercher des employés.&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"175.38\" width=\"278.46\" x=\"10\" y=\"23.08\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-179\" parent=\"2bjkZiGz_CUWRqImzZem-175\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"138.46153846153848\" width=\"138.46153846153842\" x=\"80.76923076923076\" y=\"-57.69230769230769\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-181\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"260\" width=\"260\" x=\"910\" y=\"1910\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-182\" connectable=\"0\" parent=\"2bjkZiGz_CUWRqImzZem-181\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" y=\"70\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-183\" parent=\"2bjkZiGz_CUWRqImzZem-182\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-184\" parent=\"2bjkZiGz_CUWRqImzZem-182\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Conseiller&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left;&quot;&gt;(Personne)&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Le conseiller de l'UDEM qui aide l'étudiant à trouver des intérêts&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"120\" width=\"210\" x=\"40\" y=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-185\" parent=\"2bjkZiGz_CUWRqImzZem-181\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"120\" width=\"120\" x=\"70\" y=\"-50\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-187\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-189\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-153\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-188\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-183\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-189\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"1095\" y=\"2090\" as=\"sourcePoint\"/><mxPoint x=\"810\" y=\"2340\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-189\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Entre les intérêts de l'étudiant\" vertex=\"1\"><mxGeometry height=\"30\" width=\"100\" x=\"810\" y=\"2285\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-190\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-192\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-153\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"745\" y=\"2550\"/></Array><mxPoint x=\"745.0000000000002\" y=\"2700\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-191\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-177\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-192\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"1110\" y=\"2636\" as=\"sourcePoint\"/><mxPoint x=\"745\" y=\"2530\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-192\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Ajoute des stages\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"820\" y=\"2550\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-193\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-195\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-153\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"615.0000000000002\" y=\"2700\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-194\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-170\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-195\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"255\" y=\"2650\" as=\"sourcePoint\"/><mxPoint x=\"615\" y=\"2530\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-195\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Ajoute des programmes\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"480\" y=\"2560\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-196\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-198\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-153\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-197\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-164\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;\" target=\"2bjkZiGz_CUWRqImzZem-198\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"265\" y=\"2080\" as=\"sourcePoint\"/><mxPoint x=\"550\" y=\"2340\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-198\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Ajoute des cours et les demandes\" vertex=\"1\"><mxGeometry height=\"30\" width=\"100\" x=\"410\" y=\"2270\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-2\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"220\" width=\"290.77\" x=\"1949.23\" y=\"2510\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-408\" parent=\"ACXTmjAoUY7t7XqXyrCZ-2\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#3333FF,#3333FF);\" value=\"\" vertex=\"1\"><mxGeometry height=\"220\" width=\"290.77\" as=\"geometry\"/></mxCell><mxCell id=\"2bjkZiGz_CUWRqImzZem-409\" parent=\"ACXTmjAoUY7t7XqXyrCZ-2\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MVC: Interface première&lt;/h1&gt;&lt;div&gt;(Système)&lt;/div&gt;&lt;p&gt;L'interface qui permet de choisir ses préférences&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"175.38\" width=\"180\" x=\"55.76999999999998\" y=\"31\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-6\" parent=\"1\" style=\"shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#3333FF;fillColor=#3333FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"310\" width=\"210\" x=\"2430\" y=\"2810\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-11\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-45\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-4\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-7\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Données des cours et programmes&lt;/h1&gt;&lt;div&gt;(Fichier JSON)&lt;/div&gt;&lt;p&gt;La banque de données pour chaque cours. Leur nom, leur horaire, leur lieu, le professeur, le nombre de crédits, leur prérequis&lt;/p&gt;&lt;p&gt;Il y a aussi les programmes, qui est listé par les intérêts marqué de l'étudiant dans un simple tableau&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"270\" width=\"180\" x=\"2445\" y=\"2840\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-18\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-49\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=85;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-6\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-22\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"260\" width=\"260\" x=\"1480\" y=\"2460\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-23\" connectable=\"0\" parent=\"ACXTmjAoUY7t7XqXyrCZ-22\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" y=\"70\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-24\" parent=\"ACXTmjAoUY7t7XqXyrCZ-23\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-25\" parent=\"ACXTmjAoUY7t7XqXyrCZ-23\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Usager&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;(Étudiant/Conseiller)&lt;br&gt;&lt;/div&gt;&lt;p&gt;Un individu qui utilise le simulateur pour voir son sémestre&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"120\" width=\"180\" x=\"40\" y=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-26\" parent=\"ACXTmjAoUY7t7XqXyrCZ-22\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"120\" width=\"120\" x=\"70\" y=\"-50\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-28\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"260\" width=\"260\" x=\"1480\" y=\"2860\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-29\" connectable=\"0\" parent=\"ACXTmjAoUY7t7XqXyrCZ-28\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" y=\"70\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-30\" parent=\"ACXTmjAoUY7t7XqXyrCZ-29\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"190\" width=\"260\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-31\" parent=\"ACXTmjAoUY7t7XqXyrCZ-29\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Modifieur&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;(Professeur/&lt;/div&gt;&lt;div&gt;Organisations/Registraire)&lt;br&gt;&lt;/div&gt;&lt;p&gt;Un individu qui modifie les données du simulateur&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"120\" width=\"180\" x=\"40\" y=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-32\" parent=\"ACXTmjAoUY7t7XqXyrCZ-28\" style=\"ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#9999FF;strokeColor=#9999FF;\" value=\"\" vertex=\"1\"><mxGeometry height=\"120\" width=\"120\" x=\"70\" y=\"-50\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-34\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-41\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.074;entryY=0.791;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-7\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-4\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#3333FF,#3333FF);\" value=\"\" vertex=\"1\"><mxGeometry height=\"212.2340425531915\" width=\"290.77\" x=\"2460\" y=\"2530\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-5\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MVC: Interface Seconde&lt;/h1&gt;&lt;div&gt;(Système)&lt;/div&gt;&lt;p&gt;L'interface qui permet de choisir ses cours, voir les disponibilités des professeurs, permet de lancer et arrêter la simulation,&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"190\" width=\"244.23\" x=\"2485.77\" y=\"2539.09\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-14\" connectable=\"0\" parent=\"1\" style=\"group\" value=\"\" vertex=\"1\"><mxGeometry height=\"420.21\" width=\"290.77\" x=\"2920\" y=\"2509.79\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-15\" parent=\"ACXTmjAoUY7t7XqXyrCZ-14\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#3333FF,#3333FF);\" value=\"\" vertex=\"1\"><mxGeometry height=\"420.21\" width=\"290.77\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-16\" parent=\"ACXTmjAoUY7t7XqXyrCZ-14\" style=\"text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;\" value=\"&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MVC: Back-End&lt;/h1&gt;&lt;div&gt;(Système)&lt;/div&gt;&lt;p&gt;Le back-end qui s'occupe de la simulation lorsqu'elle est démarré. Elle s'occupe de simulé les projets, voir si l'horaire choisi est valide, voir le nombre de crédits disponible, simule les disponibilités des professeurs et trie les projets.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Elle s'occupe aussi des cas imprévus, comme un cours avec des paramètres fautives ou un étudiant avec un horaire invalide, et le corrige. Il prend les données des cours et le renvoie au menu pour l'utilisateur.&lt;/p&gt;&lt;p&gt;Il gère l'output du système, donc tri les projets pour l'étudiant et les affiches.&lt;/p&gt;\" vertex=\"1\"><mxGeometry height=\"373.18399875\" width=\"256.73\" x=\"23.27\" y=\"23.5167525\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-20\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-47\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-15\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-19\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-15\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-4\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-57\" connectable=\"0\" parent=\"ACXTmjAoUY7t7XqXyrCZ-19\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;\" value=\"Renvoie les&lt;div&gt;données de chaque&amp;nbsp;&lt;/div&gt;&lt;div&gt;cours et l'output&lt;/div&gt;\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.0664\" y=\"8\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-39\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-43\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"2bjkZiGz_CUWRqImzZem-408\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-40\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-30\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.074;entryY=0.791;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-41\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"1800\" y=\"3035\" as=\"sourcePoint\"/><mxPoint x=\"2432\" y=\"3054\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-41\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Change les données du JSON\" vertex=\"1\"><mxGeometry height=\"65\" width=\"120\" x=\"2025\" y=\"3025\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-42\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-24\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-43\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"1740\" y=\"2625\" as=\"sourcePoint\"/><mxPoint x=\"1949\" y=\"2620\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-43\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Entre les paramètres de préférence\" vertex=\"1\"><mxGeometry height=\"100\" width=\"110\" x=\"1770\" y=\"2570\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-44\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-408\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-45\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"2240\" y=\"2675\" as=\"sourcePoint\"/><mxPoint x=\"2370\" y=\"2679\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-45\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Modifie les choix par-rapport au paramètres\" vertex=\"1\"><mxGeometry height=\"100\" width=\"60\" x=\"2330\" y=\"2625\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-46\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-4\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-47\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"2751\" y=\"2583\" as=\"sourcePoint\"/><mxPoint x=\"2950\" y=\"2590\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-47\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Débute la simulation\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"2820\" y=\"2575\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-48\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-15\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-49\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"3023\" y=\"2860\" as=\"sourcePoint\"/><mxPoint x=\"2640\" y=\"2895\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-49\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Demande les cours\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"2730\" y=\"2930\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-50\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-52\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"2bjkZiGz_CUWRqImzZem-408\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"2360\" y=\"2790\"/><mxPoint x=\"2167.29\" y=\"2790\"/></Array></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-52\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Renvoie les données du programme\" vertex=\"1\"><mxGeometry height=\"30\" width=\"140\" x=\"2360\" y=\"2766\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-53\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-15\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-52\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"2730\" y=\"2740\"/></Array></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-54\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-56\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-15\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-55\" edge=\"1\" parent=\"1\" source=\"2bjkZiGz_CUWRqImzZem-408\" style=\"edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;\" target=\"ACXTmjAoUY7t7XqXyrCZ-56\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"2240\" y=\"2510\" as=\"sourcePoint\"/><mxPoint x=\"2920\" y=\"2510\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-56\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Renvoie les paramètres\" vertex=\"1\"><mxGeometry height=\"65\" width=\"60\" x=\"2520\" y=\"2460\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-66\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-67\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"/><mxPoint x=\"3007.6925\" y=\"2988.85\" as=\"sourcePoint\"/><mxPoint x=\"2640\" y=\"3025.0012642221577\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-68\" edge=\"1\" parent=\"1\" source=\"ACXTmjAoUY7t7XqXyrCZ-15\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;\" target=\"ACXTmjAoUY7t7XqXyrCZ-67\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><Array as=\"points\"><mxPoint x=\"2992.67\" y=\"3025\"/></Array><mxPoint x=\"2993\" y=\"2930\" as=\"sourcePoint\"/><mxPoint x=\"2640\" y=\"3025.0012642221577\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-67\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;\" value=\"Renvoie les données\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"2780\" y=\"3010\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-70\" edge=\"1\" parent=\"1\" source=\"EfzPhMQtqPS5q-U5fm6h-17\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"EfzPhMQtqPS5q-U5fm6h-41\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"1475\" y=\"948\" as=\"sourcePoint\"/><mxPoint x=\"1650\" y=\"1093\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"EfzPhMQtqPS5q-U5fm6h-41\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Accepte\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"1620\" y=\"1000.5\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-72\" edge=\"1\" parent=\"1\" source=\"EfzPhMQtqPS5q-U5fm6h-45\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#2b4554, #ededed);entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"ACXTmjAoUY7t7XqXyrCZ-73\" value=\"\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"2010\" y=\"781\" as=\"sourcePoint\"/><mxPoint x=\"2145\" y=\"743\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-73\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Valider la demande\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"2070\" y=\"708\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-78\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Valider le Court\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"1670\" y=\"1543\" as=\"geometry\"/></mxCell><mxCell id=\"ACXTmjAoUY7t7XqXyrCZ-79\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;\" value=\"Valider le stage\" vertex=\"1\"><mxGeometry height=\"30\" width=\"60\" x=\"2160\" y=\"1533\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram></mxfile>",
+  "pages": [
+    {
+      "id": "9Rir4zVyAO7QaP5zqvP0",
+      "name": "Page-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-407",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-1",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-13",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-2",
+          "target": "x3wJnEu72abw8KxnmCof-12"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-19",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-2",
+          "target": "x3wJnEu72abw8KxnmCof-16"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-30",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-2",
+          "target": "x3wJnEu72abw8KxnmCof-28"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-45",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-2",
+          "target": "x3wJnEu72abw8KxnmCof-43"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-46",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-2",
+          "target": "x3wJnEu72abw8KxnmCof-44"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-2",
+          "type": "node",
+          "parent": "1",
+          "label": "Étudiant"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-27",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-3",
+          "target": "x3wJnEu72abw8KxnmCof-26"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-33",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-3",
+          "target": "x3wJnEu72abw8KxnmCof-32"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-3",
+          "type": "node",
+          "parent": "1",
+          "label": "Professeur"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-36",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-4",
+          "target": "x3wJnEu72abw8KxnmCof-35"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-49",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-4",
+          "target": "x3wJnEu72abw8KxnmCof-47"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-4",
+          "type": "node",
+          "parent": "1",
+          "label": "Conseiller"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-34",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-5",
+          "target": "x3wJnEu72abw8KxnmCof-31"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-71",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-5",
+          "target": "EfzPhMQtqPS5q-U5fm6h-70"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-5",
+          "type": "node",
+          "parent": "1",
+          "label": "Registraire"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-39",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-6",
+          "target": "x3wJnEu72abw8KxnmCof-38"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-41",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-6",
+          "target": "x3wJnEu72abw8KxnmCof-40"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-6",
+          "type": "node",
+          "parent": "1",
+          "label": "Laboratoire/Organisations"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-12",
+          "type": "node",
+          "parent": "1",
+          "label": "Voir les exigences du programme",
+          "html": "<div><br></div><div><br></div><div>Voir les exigences du programme</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-14",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-22",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-15",
+          "target": "x3wJnEu72abw8KxnmCof-12"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-15",
+          "type": "node",
+          "parent": "1",
+          "label": "Totaux de crédits requis, nombre de cours requis, quotas de projets ou de séminaire"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-16",
+          "type": "node",
+          "parent": "1",
+          "label": "Consulte son historique de cours",
+          "html": "<div><br></div><div><br></div><div>Consulte son historique de cours</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-17",
+          "type": "node",
+          "parent": "1",
+          "label": "Voir pourquoi l'étudiant est refusé",
+          "html": "<div><br></div><div>Voir pourquoi l'étudiant est refusé</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-18",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-16",
+          "target": "x3wJnEu72abw8KxnmCof-17"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-25",
+          "type": "edge",
+          "parent": "1",
+          "source": "x3wJnEu72abw8KxnmCof-24",
+          "target": "x3wJnEu72abw8KxnmCof-17"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-24",
+          "type": "node",
+          "parent": "1",
+          "label": "Chevauchement de cours, application trop âgée"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-26",
+          "type": "node",
+          "parent": "1",
+          "label": "Accepte/refuse les demandes",
+          "html": "<div><br></div><div><br></div><div>Accepte/refuse les demandes</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-28",
+          "type": "node",
+          "parent": "1",
+          "label": "Voir les événements importants pour son programme",
+          "html": "<div><br></div><div>Voir les événements importants pour son programme</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-31",
+          "type": "node",
+          "parent": "1",
+          "label": "Instaurer les contraintes pour chaque programme",
+          "html": "<div><br></div><div><br></div><div>Instaurer les contraintes pour chaque programme&nbsp;</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-32",
+          "type": "node",
+          "parent": "1",
+          "label": "Ajoute/Refuse des cours et leurs blocs horaires",
+          "html": "<div><br></div><div><br></div><div>Ajoute/Refuse des cours et leurs blocs horaires</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-35",
+          "type": "node",
+          "parent": "1",
+          "label": "Voir les contraintes pour chaque programme",
+          "html": "<div><br></div><div><br></div><div>Voir les contraintes pour chaque programme</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-38",
+          "type": "node",
+          "parent": "1",
+          "label": "Ajoute/Modification de stages",
+          "html": "<div><br></div><div><br></div><div>Ajoute/Modification de stages</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-40",
+          "type": "node",
+          "parent": "1",
+          "label": "Accepte/Refuse les demandes de stages",
+          "html": "<div><br></div><div><br></div><div>Accepte/Refuse les demandes de stages</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-43",
+          "type": "node",
+          "parent": "1",
+          "label": "Envoyer des demandes de cours",
+          "html": "<div><br></div><div><br></div><div>Envoyer des demandes de cours</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-44",
+          "type": "node",
+          "parent": "1",
+          "label": "Planification de chaques sémestres",
+          "html": "<div><br></div><div><br></div><div>Planification de chaques sémestres</div>"
+        },
+        {
+          "id": "x3wJnEu72abw8KxnmCof-47",
+          "type": "node",
+          "parent": "1",
+          "label": "Voir les cours qui correspond aux intérêts de l'étudiant",
+          "html": "<div><br></div><div><br></div><div><br></div><div>Voir les cours qui correspond aux intérêts de l'étudiant</div>"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-2",
+          "type": "node",
+          "parent": "1",
+          "label": "Utilisateur"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-7",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "source": "EfzPhMQtqPS5q-U5fm6h-5",
+          "target": "EfzPhMQtqPS5q-U5fm6h-6"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-5",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-6",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "label": "Voir son programme"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-18",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "source": "EfzPhMQtqPS5q-U5fm6h-14",
+          "target": "EfzPhMQtqPS5q-U5fm6h-17"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-14",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "label": "Choisir les cours"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-22",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "source": "EfzPhMQtqPS5q-U5fm6h-17",
+          "target": "EfzPhMQtqPS5q-U5fm6h-19"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-69",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "source": "EfzPhMQtqPS5q-U5fm6h-17",
+          "target": "EfzPhMQtqPS5q-U5fm6h-14"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-17",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-19",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-20",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-37",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "label": "Valider"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-38",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "label": "Annuler"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-39",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-2",
+          "label": "Refus"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-3",
+          "type": "node",
+          "parent": "1",
+          "label": "Système"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-13",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-3",
+          "source": "EfzPhMQtqPS5q-U5fm6h-9",
+          "target": "EfzPhMQtqPS5q-U5fm6h-12"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-9",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-3",
+          "label": "Vérifier quelle programme"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-12",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-3",
+          "label": "Déterminer les contraintes"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-34",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-3",
+          "source": "EfzPhMQtqPS5q-U5fm6h-30",
+          "target": "EfzPhMQtqPS5q-U5fm6h-32"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-30",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-3",
+          "label": "Sauvegarder le choix de cours"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-32",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-3"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-33",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-3"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-10",
+          "type": "edge",
+          "parent": "1",
+          "source": "EfzPhMQtqPS5q-U5fm6h-6",
+          "target": "EfzPhMQtqPS5q-U5fm6h-9"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-15",
+          "type": "edge",
+          "parent": "1",
+          "source": "EfzPhMQtqPS5q-U5fm6h-12",
+          "target": "EfzPhMQtqPS5q-U5fm6h-14"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-23",
+          "type": "edge",
+          "parent": "1",
+          "source": "EfzPhMQtqPS5q-U5fm6h-41",
+          "target": "EfzPhMQtqPS5q-U5fm6h-30"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-54",
+          "type": "node",
+          "parent": "1",
+          "label": "Système"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-3",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-71",
+          "target": "2bjkZiGz_CUWRqImzZem-2"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-7",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "source": "2bjkZiGz_CUWRqImzZem-2",
+          "target": "2bjkZiGz_CUWRqImzZem-6"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-2",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "label": "Refuser le cours"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-5",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "source": "2bjkZiGz_CUWRqImzZem-4",
+          "target": "2bjkZiGz_CUWRqImzZem-10"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-4",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "label": "Ajout à l'horaire"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-67",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-71",
+          "target": "2bjkZiGz_CUWRqImzZem-4"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-8",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "source": "2bjkZiGz_CUWRqImzZem-6",
+          "target": "2bjkZiGz_CUWRqImzZem-9"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-6",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "label": "Donner une raison"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-13",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "source": "2bjkZiGz_CUWRqImzZem-9",
+          "target": "2bjkZiGz_CUWRqImzZem-11"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-9",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "label": "Ajouter à l'historique de cours"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-14",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "source": "2bjkZiGz_CUWRqImzZem-10",
+          "target": "2bjkZiGz_CUWRqImzZem-11"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-10",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "label": "Changer les contraintes de l'horaire"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-11",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-12",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-71",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-74",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "label": "Accepte"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-75",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-54",
+          "label": "Refuse"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-70",
+          "type": "node",
+          "parent": "1",
+          "label": "Ajouter/Modifier un programme",
+          "html": "<br>Ajouter/Modifier un programme"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-42",
+          "type": "node",
+          "parent": "1",
+          "label": "Utilisateur"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-43",
+          "type": "edge",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-42",
+          "source": "EfzPhMQtqPS5q-U5fm6h-44",
+          "target": "EfzPhMQtqPS5q-U5fm6h-45"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-44",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-42"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-45",
+          "type": "node",
+          "parent": "EfzPhMQtqPS5q-U5fm6h-42",
+          "label": "Envoyer une demande"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-66",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-73",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-71"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-22",
+          "type": "node",
+          "parent": "1",
+          "label": "Utilisateur"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-23",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-22",
+          "source": "2bjkZiGz_CUWRqImzZem-24",
+          "target": "2bjkZiGz_CUWRqImzZem-25"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-24",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-22"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-25",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-22",
+          "label": "Ajouter son cours dans un fichier"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-69",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-22",
+          "source": "2bjkZiGz_CUWRqImzZem-67",
+          "target": "2bjkZiGz_CUWRqImzZem-25"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-67",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-22"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-70",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-22",
+          "label": "Ajout de plus qu'un cours"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-73",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-22",
+          "target": "2bjkZiGz_CUWRqImzZem-74"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-74",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-22"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-75",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-22"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-76",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-22",
+          "label": "Plus de cours"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-34",
+          "type": "node",
+          "parent": "1",
+          "label": "Système"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-35",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-34",
+          "source": "2bjkZiGz_CUWRqImzZem-36",
+          "target": "2bjkZiGz_CUWRqImzZem-37"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-36",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-34",
+          "label": "Prendre les cours d'un fichier"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-37",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-34",
+          "label": "Séparer chacune des\ncontraintes",
+          "html": "Séparer chacune des<div>contraintes&nbsp;</div>"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-56",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-34",
+          "source": "2bjkZiGz_CUWRqImzZem-29",
+          "target": "2bjkZiGz_CUWRqImzZem-57"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-29",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-34"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-26",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-34",
+          "source": "2bjkZiGz_CUWRqImzZem-37",
+          "target": "2bjkZiGz_CUWRqImzZem-29"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-51",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-34"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-52",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-34"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-54",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-34",
+          "source": "2bjkZiGz_CUWRqImzZem-29",
+          "target": "2bjkZiGz_CUWRqImzZem-51"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-57",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-34",
+          "label": "Mettre l'horaire, les crédits et créer le bloc"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-58",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-34",
+          "label": "Valide"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-46",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-25",
+          "target": "2bjkZiGz_CUWRqImzZem-36"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-55",
+          "type": "node",
+          "parent": "1",
+          "label": "Invalide"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-68",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-57",
+          "target": "2bjkZiGz_CUWRqImzZem-67"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-77",
+          "type": "node",
+          "parent": "1",
+          "label": "Utilisateur"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-78",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-77",
+          "source": "2bjkZiGz_CUWRqImzZem-79",
+          "target": "2bjkZiGz_CUWRqImzZem-80"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-79",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-77"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-80",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-77",
+          "label": "Ajouter son stage à un fichier"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-81",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-77",
+          "source": "2bjkZiGz_CUWRqImzZem-82",
+          "target": "2bjkZiGz_CUWRqImzZem-80"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-82",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-77"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-83",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-77",
+          "label": "Ajout de plus qu'un stage"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-84",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-77",
+          "target": "2bjkZiGz_CUWRqImzZem-85"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-85",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-77"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-86",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-77"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-87",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-77",
+          "label": "Aucun stage"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-88",
+          "type": "node",
+          "parent": "1",
+          "label": "Système"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-89",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-88",
+          "source": "2bjkZiGz_CUWRqImzZem-90",
+          "target": "2bjkZiGz_CUWRqImzZem-91"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-90",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-88",
+          "label": "Prendre les stages d'un fichier"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-91",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-88",
+          "label": "Séparer chacune des\ncontraintes",
+          "html": "Séparer chacune des<div>contraintes&nbsp;</div>"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-92",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-88",
+          "source": "2bjkZiGz_CUWRqImzZem-93",
+          "target": "2bjkZiGz_CUWRqImzZem-98"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-93",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-88"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-94",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-88",
+          "source": "2bjkZiGz_CUWRqImzZem-91",
+          "target": "2bjkZiGz_CUWRqImzZem-93"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-95",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-88"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-96",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-88"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-97",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-88",
+          "source": "2bjkZiGz_CUWRqImzZem-93",
+          "target": "2bjkZiGz_CUWRqImzZem-95"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-98",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-88",
+          "label": "Mettre le seuil, les exigences et l'horaire"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-99",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-88",
+          "label": "Valide"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-100",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-80",
+          "target": "2bjkZiGz_CUWRqImzZem-90"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-101",
+          "type": "node",
+          "parent": "1",
+          "label": "Invalide"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-102",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-98",
+          "target": "2bjkZiGz_CUWRqImzZem-82"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-103",
+          "type": "node",
+          "parent": "1",
+          "label": "Utilisateur"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-104",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-103",
+          "source": "2bjkZiGz_CUWRqImzZem-105",
+          "target": "2bjkZiGz_CUWRqImzZem-106"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-105",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-103"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-106",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-103",
+          "label": "Ajouter un programme à un fichier"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-107",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-103",
+          "source": "2bjkZiGz_CUWRqImzZem-108",
+          "target": "2bjkZiGz_CUWRqImzZem-106"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-108",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-103"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-109",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-103",
+          "label": "Ajout de plus qu'un stage"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-110",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-103",
+          "source": "2bjkZiGz_CUWRqImzZem-108",
+          "target": "2bjkZiGz_CUWRqImzZem-111"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-111",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-103"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-112",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-103"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-113",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-103",
+          "label": "Aucun programme"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-114",
+          "type": "node",
+          "parent": "1",
+          "label": "Système"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-115",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "source": "2bjkZiGz_CUWRqImzZem-116",
+          "target": "2bjkZiGz_CUWRqImzZem-117"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-116",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "label": "Prendre les programme d'un fichier"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-117",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "label": "Séparer chaque cours pour chaque fichier"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-118",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "source": "2bjkZiGz_CUWRqImzZem-119",
+          "target": "2bjkZiGz_CUWRqImzZem-124"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-119",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-120",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "source": "2bjkZiGz_CUWRqImzZem-117",
+          "target": "2bjkZiGz_CUWRqImzZem-119"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-121",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-122",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-123",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "source": "2bjkZiGz_CUWRqImzZem-119",
+          "target": "2bjkZiGz_CUWRqImzZem-121"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-131",
+          "type": "edge",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "source": "2bjkZiGz_CUWRqImzZem-124",
+          "target": "2bjkZiGz_CUWRqImzZem-130"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-124",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "label": "Mettre les contraintes du programme"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-125",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "label": "Valide"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-130",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "label": "Définir les intérêts du programme"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-77",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-114",
+          "label": "Valider le Programme"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-126",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-106",
+          "target": "2bjkZiGz_CUWRqImzZem-116"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-127",
+          "type": "node",
+          "parent": "1",
+          "label": "Un cours invalide"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-128",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-130",
+          "target": "2bjkZiGz_CUWRqImzZem-108"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-135",
+          "type": "node",
+          "parent": "1",
+          "label": "Prototype Visé"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-140",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-143",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-140"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-137",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-143"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-142",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-143",
+          "label": "Étudiant\n\t\t(personne)\n\nUn étudiant de l'UDEM qui choisi son sémestre",
+          "html": "<h1 style=\"text-align: center; margin-top: 0px;\">Étudiant</h1><div><span style=\"white-space: pre;\">\t</span><span style=\"white-space: pre;\">\t</span>(personne)<br></div><p>Un étudiant de l'UDEM qui choisi son sémestre</p>"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-136",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-140"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-150",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-148",
+          "target": "2bjkZiGz_CUWRqImzZem-153"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-148",
+          "type": "node",
+          "parent": "1",
+          "label": "Entre les paramètres pour la simulation"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-147",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-137",
+          "target": "2bjkZiGz_CUWRqImzZem-148"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-151",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-152",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-151"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-153",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-152"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-154",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-152",
+          "label": "Simulateur\n(Système informatique)\nPermet aux étudiants de simuler un sémestre de l'université",
+          "html": "<h1 style=\"text-align: center; margin-top: 0px;\">Simulateur</h1><div style=\"text-align: center;\">(Système informatique)</div><p>Permet aux étudiants de simuler un sémestre de l'université</p>"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-162",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-163",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-162"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-164",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-163"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-165",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-163",
+          "label": "Professeur\t\t\n(personne)\nUn Professeur de l'UDEM qui modifie son cours",
+          "html": "<h1 style=\"text-align: center; margin-top: 0px;\">Professeur<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;\">\t</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;\">\t</span></h1><h1 style=\"text-align: center; margin-top: 0px;\"><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left;\">(personne)</span></h1><p>Un Professeur de l'UDEM qui modifie son cours</p>"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-166",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-162"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-168",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-169",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-168"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-170",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-169"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-171",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-169",
+          "label": "Registraire\t\t\n(Groupe)\nLe registraire de l'UDEM qui s'occupe des programmes",
+          "html": "<h1 style=\"text-align: center; margin-top: 0px;\">Registraire<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;\">\t</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;\">\t</span></h1><h1 style=\"text-align: center; margin-top: 0px;\"><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left;\">(Groupe)</span></h1><p>Le registraire de l'UDEM qui s'occupe des programmes</p>"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-172",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-168"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-175",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-176",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-175"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-177",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-176"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-178",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-176",
+          "label": "Laboratoire/\nOrganisation\n(Groupe)\nDes compagnies externes qui tentent de chercher des employés.",
+          "html": "<h1 style=\"text-align: center; margin-top: 0px;\">Laboratoire/</h1><h1 style=\"text-align: center; margin-top: 0px;\">Organisation</h1><h1 style=\"text-align: center; margin-top: 0px;\"><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left;\">(Groupe)</span></h1><p>Des compagnies externes qui tentent de chercher des employés.</p>"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-179",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-175"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-181",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-182",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-181"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-183",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-182"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-184",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-182",
+          "label": "Conseiller\t\t\n(Personne)\nLe conseiller de l'UDEM qui aide l'étudiant à trouver des intérêts",
+          "html": "<h1 style=\"text-align: center; margin-top: 0px;\">Conseiller<span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;\">\t</span><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left; white-space: pre;\">\t</span></h1><h1 style=\"text-align: center; margin-top: 0px;\"><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal; text-align: left;\">(Personne)</span></h1><p>Le conseiller de l'UDEM qui aide l'étudiant à trouver des intérêts</p>"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-185",
+          "type": "node",
+          "parent": "2bjkZiGz_CUWRqImzZem-181"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-187",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-189",
+          "target": "2bjkZiGz_CUWRqImzZem-153"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-188",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-183",
+          "target": "2bjkZiGz_CUWRqImzZem-189"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-189",
+          "type": "node",
+          "parent": "1",
+          "label": "Entre les intérêts de l'étudiant"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-190",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-192",
+          "target": "2bjkZiGz_CUWRqImzZem-153"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-191",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-177",
+          "target": "2bjkZiGz_CUWRqImzZem-192"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-192",
+          "type": "node",
+          "parent": "1",
+          "label": "Ajoute des stages"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-193",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-195",
+          "target": "2bjkZiGz_CUWRqImzZem-153"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-194",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-170",
+          "target": "2bjkZiGz_CUWRqImzZem-195"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-195",
+          "type": "node",
+          "parent": "1",
+          "label": "Ajoute des programmes"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-196",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-198",
+          "target": "2bjkZiGz_CUWRqImzZem-153"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-197",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-164",
+          "target": "2bjkZiGz_CUWRqImzZem-198"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-198",
+          "type": "node",
+          "parent": "1",
+          "label": "Ajoute des cours et les demandes"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-2",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-408",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-2"
+        },
+        {
+          "id": "2bjkZiGz_CUWRqImzZem-409",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-2",
+          "label": "MVC: Interface première\n(Système)\nL'interface qui permet de choisir ses préférences",
+          "html": "<h1 style=\"margin-top: 0px;\">MVC: Interface première</h1><div>(Système)</div><p>L'interface qui permet de choisir ses préférences</p>"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-6",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-11",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-45",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-4"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-7",
+          "type": "node",
+          "parent": "1",
+          "label": "Données des cours et programmes\n(Fichier JSON)\nLa banque de données pour chaque cours. Leur nom, leur horaire, leur lieu, le professeur, le nombre de crédits, leur prérequis\nIl y a aussi les programmes, qui est listé par les intérêts marqué de l'étudiant dans un simple tableau",
+          "html": "<h1 style=\"margin-top: 0px;\">Données des cours et programmes</h1><div>(Fichier JSON)</div><p>La banque de données pour chaque cours. Leur nom, leur horaire, leur lieu, le professeur, le nombre de crédits, leur prérequis</p><p>Il y a aussi les programmes, qui est listé par les intérêts marqué de l'étudiant dans un simple tableau</p>"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-18",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-49",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-6"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-22",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-23",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-22"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-24",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-23"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-25",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-23",
+          "label": "Usager\n\t\t(Étudiant/Conseiller)\n\nUn individu qui utilise le simulateur pour voir son sémestre",
+          "html": "<h1 style=\"text-align: center; margin-top: 0px;\">Usager</h1><div><span style=\"white-space: pre;\">\t</span><span style=\"white-space: pre;\">\t</span>(Étudiant/Conseiller)<br></div><p>Un individu qui utilise le simulateur pour voir son sémestre</p>"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-26",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-22"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-28",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-29",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-28"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-30",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-29"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-31",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-29",
+          "label": "Modifieur\n\t\t(Professeur/\nOrganisations/Registraire)\n\nUn individu qui modifie les données du simulateur",
+          "html": "<h1 style=\"text-align: center; margin-top: 0px;\">Modifieur</h1><div><span style=\"white-space: pre;\">\t</span><span style=\"white-space: pre;\">\t</span>(Professeur/</div><div>Organisations/Registraire)<br></div><p>Un individu qui modifie les données du simulateur</p>"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-32",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-28"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-34",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-41",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-7"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-4",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-5",
+          "type": "node",
+          "parent": "1",
+          "label": "MVC: Interface Seconde\n(Système)\nL'interface qui permet de choisir ses cours, voir les disponibilités des professeurs, permet de lancer et arrêter la simulation,",
+          "html": "<h1 style=\"margin-top: 0px;\">MVC: Interface Seconde</h1><div>(Système)</div><p>L'interface qui permet de choisir ses cours, voir les disponibilités des professeurs, permet de lancer et arrêter la simulation,</p>"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-14",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-15",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-14"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-16",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-14",
+          "label": "MVC: Back-End\n(Système)\nLe back-end qui s'occupe de la simulation lorsqu'elle est démarré. Elle s'occupe de simulé les projets, voir si l'horaire choisi est valide, voir le nombre de crédits disponible, simule les disponibilités des professeurs et trie les projets. \nElle s'occupe aussi des cas imprévus, comme un cours avec des paramètres fautives ou un étudiant avec un horaire invalide, et le corrige. Il prend les données des cours et le renvoie au menu pour l'utilisateur.\nIl gère l'output du système, donc tri les projets pour l'étudiant et les affiches.",
+          "html": "<h1 style=\"margin-top: 0px;\">MVC: Back-End</h1><div>(Système)</div><p>Le back-end qui s'occupe de la simulation lorsqu'elle est démarré. Elle s'occupe de simulé les projets, voir si l'horaire choisi est valide, voir le nombre de crédits disponible, simule les disponibilités des professeurs et trie les projets.&nbsp;</p><p>Elle s'occupe aussi des cas imprévus, comme un cours avec des paramètres fautives ou un étudiant avec un horaire invalide, et le corrige. Il prend les données des cours et le renvoie au menu pour l'utilisateur.</p><p>Il gère l'output du système, donc tri les projets pour l'étudiant et les affiches.</p>"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-20",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-47",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-15"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-19",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-15",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-4"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-57",
+          "type": "node",
+          "parent": "ACXTmjAoUY7t7XqXyrCZ-19",
+          "label": "Renvoie les\ndonnées de chaque \ncours et l'output",
+          "html": "Renvoie les<div>données de chaque&nbsp;</div><div>cours et l'output</div>"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-39",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-43",
+          "target": "2bjkZiGz_CUWRqImzZem-408"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-40",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-30",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-41"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-41",
+          "type": "node",
+          "parent": "1",
+          "label": "Change les données du JSON"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-42",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-24",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-43"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-43",
+          "type": "node",
+          "parent": "1",
+          "label": "Entre les paramètres de préférence"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-44",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-408",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-45"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-45",
+          "type": "node",
+          "parent": "1",
+          "label": "Modifie les choix par-rapport au paramètres"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-46",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-4",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-47"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-47",
+          "type": "node",
+          "parent": "1",
+          "label": "Débute la simulation"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-48",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-15",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-49"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-49",
+          "type": "node",
+          "parent": "1",
+          "label": "Demande les cours"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-50",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-52",
+          "target": "2bjkZiGz_CUWRqImzZem-408"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-52",
+          "type": "node",
+          "parent": "1",
+          "label": "Renvoie les données du programme"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-53",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-15",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-52"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-54",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-56",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-15"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-55",
+          "type": "edge",
+          "parent": "1",
+          "source": "2bjkZiGz_CUWRqImzZem-408",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-56"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-56",
+          "type": "node",
+          "parent": "1",
+          "label": "Renvoie les paramètres"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-66",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-67"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-68",
+          "type": "edge",
+          "parent": "1",
+          "source": "ACXTmjAoUY7t7XqXyrCZ-15",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-67"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-67",
+          "type": "node",
+          "parent": "1",
+          "label": "Renvoie les données"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-70",
+          "type": "edge",
+          "parent": "1",
+          "source": "EfzPhMQtqPS5q-U5fm6h-17",
+          "target": "EfzPhMQtqPS5q-U5fm6h-41"
+        },
+        {
+          "id": "EfzPhMQtqPS5q-U5fm6h-41",
+          "type": "node",
+          "parent": "1",
+          "label": "Accepte"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-72",
+          "type": "edge",
+          "parent": "1",
+          "source": "EfzPhMQtqPS5q-U5fm6h-45",
+          "target": "ACXTmjAoUY7t7XqXyrCZ-73"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-73",
+          "type": "node",
+          "parent": "1",
+          "label": "Valider la demande"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-78",
+          "type": "node",
+          "parent": "1",
+          "label": "Valider le Court"
+        },
+        {
+          "id": "ACXTmjAoUY7t7XqXyrCZ-79",
+          "type": "node",
+          "parent": "1",
+          "label": "Valider le stage"
+        }
+      ]
+    }
+  ]
+}
