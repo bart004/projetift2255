@@ -106,3 +106,7 @@ Quelques écarts avec les signatures du cahier des charges :
 - Dans `src/data/activities.json` : les préalables, les horaires et les charges hebdomadaires sont des valeurs de démo. Les résumés de cours ne sont pas encore écrits.
 - `HORS-001` est un cours fictif, non reconnu par le DIRO, qui sert à tester cette règle.
 - À venir : des activités et encadrants fictifs, et des échéances « à valider sur le calendrier du registraire ».
+
+## Lien des tableaux
+https://app.diagrams.net/#G18kRolLRTgmN4VMNjbJK3OTy0zO4rFrtF#%7B%22pageId%22%3A%229Rir4zVyAO7QaP5zqvP0%22%7D
+
